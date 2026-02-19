@@ -25,14 +25,14 @@ const metadata = {
   actions={[
     {
       variant: 'primary',
-      text: 'Ver servicios',
+      text: 'Ver obras',
       href: 'https://vallesyrezola.wordpress.com/',
       target: '_blank',
       icon: 'tabler:building-skyscraper',
     },
     {
-      text: 'Ver obras realizadas',
-      href: '#features',
+      text: 'Ver servicios',
+      href: '#servicios',
     },
   ]}
   image={{ src: '~/assets/images/hero-image.png', alt: 'Estructura de hormigón en ejecución' }}
@@ -58,54 +58,39 @@ const metadata = {
 
   <!-- Note Widget ******************* -->
 
-  <Note title="Philosophy:" description="Simplicity, Best Practices and High Performance" />
+  <Note title="Filosofía:" description="Simplicidad, buenas prácticas y alto rendimiento" />
 
   <!-- Features Widget *************** -->
 
-  <Features
-    id="features"
-    tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022, 2023 and 2024."
-    items={[
-      {
-        title: 'Astro + Tailwind CSS Integration',
-        description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:brand-tailwind',
+<Features
+  id="servicios"
+  tagline="Servicios"
+  title="Especialistas en estructuras de hormigón"
+  subtitle="Acompañamos a constructoras, estudios de arquitectura y promotoras en todo el proceso estructural de la obra."
+  items={[
+    {
+      title: 'Cimentaciones y losas',
+      description: 'Ejecución de zapatas, losas y muros de contención adaptados al estudio geotécnico.',
+      icon: 'tabler:building-bridge',
+    },
+    {
+      title: 'Forjados y estructuras en altura',
+      description: 'Forjados unidireccionales, reticulares y losas macizas para vivienda, industrial y terciario.',
+      icon: 'tabler:building-skyscraper',
+    },
+    {
+      title: 'Muros y estructuras especiales',
+      description: 'Muros pantalla, depósitos, estructuras singulares y soluciones a medida.',
+      icon: 'tabler:tools',
+    },
+    {
+      title: 'Abiertos a nuevas ideas y contribuciones',
+      description:
+          'Impulsamos la innovación en la construcción mediante la escucha activa, integrando soluciones técnicas avanzadas y procesos colaborativos que optimizan cada proyecto.',
+      icon: 'tabler:bulb',
       },
-      {
-        title: 'Ready-to-use Components',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Best Practices',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
-      },
-      {
-        title: 'Excellent Page Speed',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  />
+  ]}
+/>
 
   <!-- Content Widget **************** -->
 
