@@ -1,0 +1,31 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+---
+
+<Layout>
+  <div class="py-20">
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+      <h1 class="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl md:text-6xl">
+        Nuestras obras
+      </h1>
+      <p class="mt-6 text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
+        +500 proyectos de estructuras de hormigón ejecutados con éxito.
+      </p>
+    </section>
+
+    <!-- Grid de obras (paginado después) -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Cada obra será una card -->
+        <article class="group">
+          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
+            <img src="/obras/foto1.jpg" alt="Obra 1" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+          </div>
+          <h3 class="mt-4 font-bold text-xl">Edificio residencial - Atocha</h3>
+          <p class="text-slate-600 mt-1">Forjado reticular - 2.500 m²</p>
+        </article>
+        <!-- Repetir para las 30 obras -->
+      </div>
+    </section>
+  </div>
+</Layout>

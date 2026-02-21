@@ -1,0 +1,63 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Features from '~/components/widgets/Features.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+---
+
+<Layout>
+  <div class="py-20">
+    <!-- Hero página -->
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+      <h1 class="text-4xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-5xl md:text-6xl">
+        Nuestros servicios de <span class="text-accent">estructuras de hormigón</span>
+      </h1>
+      <p class="mt-6 text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
+        Especialistas en cimentaciones, forjados y muros para obra civil y edificación.
+      </p>
+    </section>
+
+    <!-- Servicios detallados -->
+ <Features
+  id="servicios-detalle"
+  tagline="Servicios"
+  title="Todo tipo de estructuras en hormigón armado"
+  subtitle="Ejecutamos con maquinaria propia y equipo técnico especializado."
+  items={[
+    { 
+      title: 'Cimentaciones', 
+      description: 'Zapatas, losas y pilotaje.', 
+      icon: 'tabler:building'           // ✅ correcto
+    },
+    { 
+      title: 'Forjados', 
+      description: 'Unidireccionales y reticulares.', 
+      icon: 'tabler:building-skyscraper' // ✅ correcto  
+    },
+    { 
+      title: 'Muros pantalla', 
+      description: 'Contención y sótanos.', 
+      icon: 'tabler:building-fortress'   // ✅ correcto
+    },
+    { 
+      title: 'Naves industriales', 
+      description: 'Pabellones y almacenes.', 
+      icon: 'tabler:building-warehouse'  // ✅ correcto
+    },
+    { 
+      title: 'Obras especiales', 
+      description: 'Depósitos y elementos singulares.', 
+      icon: 'tabler:tools'               // ✅ correcto
+    },
+  ]}
+/>
+
+
+    <!-- CTA -->
+    <CallToAction
+      actions={[{ variant: 'primary', text: 'Pedir presupuesto', href: '/contacto', icon: 'tabler:currency-dollar' }]}
+    >
+      <Fragment slot="title">¿Necesitas presupuesto de estructura?</Fragment>
+      <Fragment slot="subtitle">Te enviamos presupuesto detallado en 48h.</Fragment>
+    </CallToAction>
+  </div>
+</Layout>
