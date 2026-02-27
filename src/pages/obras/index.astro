@@ -1,5 +1,162 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import { Image } from 'astro:assets';
+
+// Importar todas las imágenes de cada carpeta
+import palosImg from '../../assets/images/obras/PalosdeLaFrontera/PUTJ5438.jpg';
+import bbvaImg from '../../assets/images/obras/NuevaSedeBBVALasTablas/img_2593.jpg';
+import atochaImg from '../../assets/images/obras/EdificioBosqueDeAtocha/img_8783.jpg';
+import togoImg from '../../assets/images/obras/EstructuraPuertodeLome-Togo/img_2762.jpg';
+import cubosImg from '../../assets/images/obras/RehabilitacionEdifLosCubosM30/ir7y2zbrrjwfrb7shipeba.jpg';
+import santanderImg from '../../assets/images/obras/CiudadFinancieraBancoSantanderBSCH/lagos-con-muro-curvo-en-ciudad-financiera-bsch-023.jpg';
+import aparcamientoImg from '../../assets/images/obras/AparcamientoAmazonCarbonellYFigueras/2580737a012bc765119a754165bc895b.webp';
+import majadahondaImg from '../../assets/images/obras/ViviendasExclusivasMajadahondaAfar4/gizrgxk0tbeo2xtwqjeu0w.webp';
+import getafeImg from '../../assets/images/obras/318ViviendasUniversidadCarlosIIIGetafe-Acciona/img_1149.jpg';
+import castellanaImg from '../../assets/images/obras/EdificioPaseoCastellana77-GrupoGmp/img_6132.jpg';
+import cosladaImg from '../../assets/images/obras/BibliotecaMunicipalCoslada-FCC/img_3326.jpg';
+import iberdrolaImg from '../../assets/images/obras/CampusIberdrola-Acciona/img_9510.jpg';
+import vallecasImg from '../../assets/images/obras/48ChaletsCruceDelArteVallecas/remotemediafile_6553783_0_2021_05_06_09_39_58.webp';
+import sanchinarroImg from '../../assets/images/obras/123ViviendasSanchinarro/img_8830.jpg';
+import matuteImg from '../../assets/images/obras/BibliotecaMunicipalAnaMariaMatute/img_3345.jpg';
+import humanesImg from '../../assets/images/obras/60ViviendasHumanesAlza/img_7641.jpg';
+import almansaImg from '../../assets/images/obras/95ViviendasSanJose-CalleAlmansa/img_5596.webp';
+import molinosImg from '../../assets/images/obras/196ViviendasLosMolinosGetafe-Acciona/196-viv-los-molinos-004-11810-terminado-5-planta-baja-ty-8-planta-sotano-y-no-entran-hasta-dias-despues.jpg';
+import majuelosImg from '../../assets/images/obras/DesvíoArroyoDeLosMajuelosBSCH/desvc3ado-del-arroyo-de-los-majuelos6.jpg';
+import eigoImg from '../../assets/images/obras/EIGO-CentroLogisticoPinto/img_8038.webp';
+import ginerImg from '../../assets/images/obras/FundacionFranciscoGinerDeLosRios/133.jpg';
+import inditexImg from '../../assets/images/obras/NaveInditexMontepino-Acciona/khy7cexaroeatkivxab6ow.webp';
+import nuiconImg from '../../assets/images/obras/48ViviendasUnifamiliares-Nuicon/1c899c85-55ec-4916-80c9-bf75f8dafccd.jpg';
+import butarqueImg from '../../assets/images/obras/174ViviendasButarque-Acciona/img_3375.jpg';
+import alcobendasImg from '../../assets/images/obras/PolideportivoAlcobendas/300620111612.jpg';
+
+// Datos de las obras con sus imágenes importadas
+const obras = [
+  {
+    imagen: palosImg,
+    titulo: 'Línea de metro 11 - Palos de la Frontera',
+    descripcion: 'Ampliación de línea 11 de Metro de Madrid'
+  },
+  {
+    imagen: bbvaImg,
+    titulo: 'Sede BBVA',
+    descripcion: 'Sede BBVA Las Tablas'
+  },
+  {
+    imagen: atochaImg,
+    titulo: 'Edificio residencial - Atocha',
+    descripcion: 'Edificio Bosque de Atocha'
+  },
+  {
+    imagen: togoImg,
+    titulo: 'Estructura en Lome - Togo',
+    descripcion: 'Estructura Puerto de Lome - Togo'
+  },
+  {
+    imagen: cubosImg,
+    titulo: 'Rehabilitación Edificio Los Cubos',
+    descripcion: 'Rehabilitación Edificio Los Cubos - M30'
+  },
+  {
+    imagen: santanderImg,
+    titulo: 'Ciudad Financiera Banco Santander',
+    descripcion: 'Lago con muro curvo'
+  },
+  {
+    imagen: aparcamientoImg,
+    titulo: 'Aparcamiento Carbonell y Figueras',
+    descripcion: 'Aparcamiento Amazon Carbonell y Figueras'
+  },
+  {
+    imagen: majadahondaImg,
+    titulo: 'Viviendas exclusivas',
+    descripcion: 'Viviendas exclusivas Majadahonda'
+  },
+  {
+    imagen: getafeImg,
+    titulo: '318 viviendas - Getafe',
+    descripcion: '318 viviendas Universidad Carlos III Getafe'
+  },
+  {
+    imagen: castellanaImg,
+    titulo: 'Edificio Paseo Castellana 77',
+    descripcion: 'Edificio Paseo Castellana 77 - Grupo GMP'
+  },
+  {
+    imagen: cosladaImg,
+    titulo: 'Biblioteca Municipal',
+    descripcion: 'Biblioteca Municipal Coslada'
+  },
+  {
+    imagen: iberdrolaImg,
+    titulo: 'Campus Iberdrola',
+    descripcion: 'Campus Iberdrola - Acciona'
+  },
+  {
+    imagen: vallecasImg,
+    titulo: '48 Chalets Vallecas',
+    descripcion: '48 Chalets Cruce Del Arte Vallecas'
+  },
+  {
+    imagen: sanchinarroImg,
+    titulo: '123 Viviendas - Madrid',
+    descripcion: '123 Viviendas - Sanchinarro (Madrid)'
+  },
+  {
+    imagen: matuteImg,
+    titulo: 'Biblioteca Municipal',
+    descripcion: 'Biblioteca Municipal Ana María Matute'
+  },
+  {
+    imagen: humanesImg,
+    titulo: '60 Viviendas Humanes',
+    descripcion: '60 Viviendas Humanes Alza'
+  },
+  {
+    imagen: almansaImg,
+    titulo: '95 Viviendas San José',
+    descripcion: '95 Viviendas San José - Calle Almansa'
+  },
+  {
+    imagen: molinosImg,
+    titulo: '196 Viviendas Los Molinos - Getafe',
+    descripcion: '196 Viviendas Los Molinos - Getafe - Acciona'
+  },
+  {
+    imagen: majuelosImg,
+    titulo: 'Desvío Arroyo De Los Majuelos',
+    descripcion: 'Desvío Arroyo De Los Majuelos - BSCH'
+  },
+  {
+    imagen: eigoImg,
+    titulo: 'Edificio EIGO',
+    descripcion: 'Edificio EIGO - Centro Logístico Pinto'
+  },
+  {
+    imagen: ginerImg,
+    titulo: 'Edificio Fundación Francisco Giner de los Ríos',
+    descripcion: 'Edificio Fundación Francisco Giner de los Ríos - Madrid'
+  },
+  {
+    imagen: inditexImg,
+    titulo: 'Nave Inditex Montepino',
+    descripcion: 'Nave Inditex Montepino - Acciona'
+  },
+  {
+    imagen: nuiconImg,
+    titulo: '48 Viviendas Unifamiliares',
+    descripcion: '48 Viviendas Unifamiliares - Nuicon'
+  },
+  {
+    imagen: butarqueImg,
+    titulo: '174 Viviendas Butarque',
+    descripcion: '174 Viviendas Butarque - Acciona'
+  },
+  {
+    imagen: alcobendasImg,
+    titulo: 'Polideportivo Alcobendas',
+    descripcion: 'Polideportivo Alcobendas - Madrid'
+  }
+];
 ---
 
 <Layout>
@@ -13,210 +170,23 @@ import Layout from '~/layouts/PageLayout.astro';
       </p>
     </section>
 
-    <!-- Grid de obras (paginado después) -->
+    <!-- Grid de obras -->
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Cada obra será una card -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/PalosdeLaFrontera/PUTJ5438.jpg" alt="Línea de metro 11 - Palos de la Frontera" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Línea de metro 11 - Palos de la Frontera</h3>
-          <p class="text-slate-600 mt-1">Ampliación de línea 11 de Metro de Madrid</p>
-        </article>
-        <!-- Repetir para las 30 obras -->
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/NuevaSedeBBVALasTablas/img_2593.jpg" alt="Sede BBVA Las Tablas" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Sede BBVA</h3>
-          <p class="text-slate-600 mt-1">Sede BBVA Las Tablas</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/EdificioBosqueDeAtocha/img_8783.jpg" alt="Edificio Bosque de Atocha" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Edificio residencial - Atocha</h3>
-          <p class="text-slate-600 mt-1">Edificio Bosque de Atocha</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/EstructuraPuertodeLome-Togo/img_2762.jpg" alt="Estructura Puerto de Lome - Togo" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Estructura en Lome - Togo</h3>
-          <p class="text-slate-600 mt-1">Estructura Puerto de Lome - Togo</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/RehabilitacionEdifLosCubosM30/ir7y2zbrrjwfrb7shipeba.jpg" alt="Rehabilitación Edificio Los Cubos - M30" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Rehabilitación Edificio Los Cubos</h3>
-          <p class="text-slate-600 mt-1">Rehabilitación Edificio Los Cubos - M30</p>
-        </article>
-         <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/CiudadFinancieraBancoSantanderBSCH/lagos-con-muro-curvo-en-ciudad-financiera-bsch-023.jpg" alt="Ciudad Financiera Banco Santander" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Ciudad Financiera Banco Santander</h3>
-          <p class="text-slate-600 mt-1">Lago con muro curvo</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/AparcamientoAmazonCarbonellYFigueras/2580737a012bc765119a754165bc895b.webp" alt="Aparcamiento Carbonell y Figueras" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Aparcamiento Carbonell y Figueras</h3>
-          <p class="text-slate-600 mt-1">Aparcamiento Amazon Carbonell y Figueras</p>
-        </article>       
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/ViviendasExclusivasMajadahondaAfar4/gizrgxk0tbeo2xtwqjeu0w.webp" alt="Viviendas exclusivas Majadahonda" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Viviendas exclusivas</h3>
-          <p class="text-slate-600 mt-1">Viviendas exclusivas Majadahonda</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/318ViviendasUniversidadCarlosIIIGetafe-Acciona/img_1149.jpg" alt="318 viviendas Universidad Carlos III Getafe" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">318 viviendas - Getafe</h3>
-          <p class="text-slate-600 mt-1">318 viviendas Universidad Carlos III Getafe</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/EdificioPaseoCastellana77-GrupoGmp/img_6132.jpg" alt="Edificio Paseo Castellana 77 - Grupo GMP" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Edificio Paseo Castellana 77</h3>
-          <p class="text-slate-600 mt-1">Edificio Paseo Castellana 77 - Grupo GMP</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/BibliotecaMunicipalCoslada-FCC/img_3326.jpg" alt="Biblioteca Municipal Coslada" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Biblioteca Municipal</h3>
-          <p class="text-slate-600 mt-1">Biblioteca Municipal Coslada</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/CampusIberdrola-Acciona/img_9510.jpg" alt="Campus Iberdrola" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Campus Iberdrola</h3>
-          <p class="text-slate-600 mt-1">Campus Iberdrola - Acciona</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/48ChaletsCruceDelArteVallecas/remotemediafile_6553783_0_2021_05_06_09_39_58.webp" alt="48 Chalets Cruce Del Arte Vallecas" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">48 Chalets Vallecas</h3>
-          <p class="text-slate-600 mt-1">48 Chalets Cruce Del Arte Vallecas</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/123ViviendasSanchinarro/img_8830.jpg" alt="123 Viviendas Sanchinarro" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">123 Viviendas - Madrid</h3>
-          <p class="text-slate-600 mt-1">123 Viviendas - Sanchinarro (Madrid)</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/BibliotecaMunicipalAnaMariaMatute/img_3345.jpg" alt="Biblioteca Municipal Ana María Matute" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Biblioteca Municipal</h3>
-          <p class="text-slate-600 mt-1">Biblioteca Municipal Ana María Matute</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/60ViviendasHumanesAlza/img_7641.jpg" alt="60 Viviendas Humanes Alza" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">60 Viviendas Humanes</h3>
-          <p class="text-slate-600 mt-1">60 Viviendas Humanes Alza</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/95ViviendasSanJose-CalleAlmansa/img_5596.webp" alt="95 Viviendas San José - Calle Almansa" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">95 Viviendas San José</h3>
-          <p class="text-slate-600 mt-1">95 Viviendas San José - Calle Almansa</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/196ViviendasLosMolinosGetafe-Acciona/196-viv-los-molinos-004-11810-terminado-5-planta-baja-ty-8-planta-sotano-y-no-entran-hasta-dias-despues.jpg" alt="196 Viviendas Los Molinos - Getafe" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">196 Viviendas Los Molinos - Getafe</h3>
-          <p class="text-slate-600 mt-1">196 Viviendas Los Molinos - Getafe - Acciona</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/DesvíoArroyoDeLosMajuelosBSCH/desvc3ado-del-arroyo-de-los-majuelos6.jpg" alt="Desvío Arroyo De Los Majuelos BSCH" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Desvío Arroyo De Los Majuelos</h3>
-          <p class="text-slate-600 mt-1">Desvío Arroyo De Los Majuelos - BSCH</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/EIGO-CentroLogisticoPinto/img_8038.webp" alt="Edificio EIGO - Centro Logístico Pinto" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Edificio EIGO</h3>
-          <p class="text-slate-600 mt-1">Edificio EIGO - Centro Logístico Pinto</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/FundacionFranciscoGinerDeLosRios/133.jpg" alt="Edificio Fundación Francisco Giner de los Ríos" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Edificio Fundación Francisco Giner de los Ríos</h3>
-          <p class="text-slate-600 mt-1">Edificio Fundación Francisco Giner de los Ríos - Madrid</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/NaveInditexMontepino-Acciona/khy7cexaroeatkivxab6ow.webp" alt="Nave Inditex Montepino - Acciona" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Nave Inditex Montepino</h3>
-          <p class="text-slate-600 mt-1">Nave Inditex Montepino - Acciona</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/48ViviendasUnifamiliares-Nuicon/1c899c85-55ec-4916-80c9-bf75f8dafccd.jpg" alt="48 Viviendas Unifamiliares - Nuicon" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">48 Viviendas Unifamiliares</h3>
-          <p class="text-slate-600 mt-1">48 Viviendas Unifamiliares - Nuicon</p>
-        </article>
-         <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/174ViviendasButarque-Acciona/img_3375.jpg" alt="174 Viviendas Butarque - Acciona" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">174 Viviendas Butarque</h3>
-          <p class="text-slate-600 mt-1">174 Viviendas Butarque - Acciona</p>
-        </article>
-        <!-- Obra -->
-        <article class="group">
-          <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-            <img src="/src/assets/images/obras/PolideportivoAlcobendas/300620111612.jpg" alt="Polideportivo Alcobendas" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-          </div>
-          <h3 class="mt-4 font-bold text-xl">Polideportivo Alcobendas</h3>
-          <p class="text-slate-600 mt-1">Polideportivo Alcobendas - Madrid</p>
-        </article>
+        {obras.map((obra, index) => (
+          <article class="group">
+            <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
+              <Image
+                src={obra.imagen}
+                alt={obra.titulo}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                loading={index < 6 ? "eager" : "lazy"}
+              />
+            </div>
+            <h3 class="mt-4 font-bold text-xl">{obra.titulo}</h3>
+            <p class="text-slate-600 mt-1">{obra.descripcion}</p>
+          </article>
+        ))}
       </div>
     </section>
   </div>
