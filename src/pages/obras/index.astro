@@ -3,31 +3,31 @@ import Layout from '~/layouts/PageLayout.astro';
 import { Image } from 'astro:assets';
 
 // Importar todas las imágenes de cada carpeta
-import palosImg from '../../assets/images/obras/PalosdeLaFrontera/PUTJ5438.jpg';
-import bbvaImg from '../../assets/images/obras/NuevaSedeBBVALasTablas/img_2593.jpg';
-import atochaImg from '../../assets/images/obras/EdificioBosqueDeAtocha/img_8783.jpg';
-import togoImg from '../../assets/images/obras/EstructuraPuertodeLome-Togo/img_2762.jpg';
-import cubosImg from '../../assets/images/obras/RehabilitacionEdifLosCubosM30/ir7y2zbrrjwfrb7shipeba.jpg';
-import santanderImg from '../../assets/images/obras/CiudadFinancieraBancoSantanderBSCH/lagos-con-muro-curvo-en-ciudad-financiera-bsch-023.jpg';
-import aparcamientoImg from '../../assets/images/obras/AparcamientoAmazonCarbonellYFigueras/2580737a012bc765119a754165bc895b.webp';
-import majadahondaImg from '../../assets/images/obras/ViviendasExclusivasMajadahondaAfar4/gizrgxk0tbeo2xtwqjeu0w.webp';
-import getafeImg from '../../assets/images/obras/318ViviendasUniversidadCarlosIIIGetafe-Acciona/img_1149.jpg';
-import castellanaImg from '../../assets/images/obras/EdificioPaseoCastellana77-GrupoGmp/img_6132.jpg';
-import cosladaImg from '../../assets/images/obras/BibliotecaMunicipalCoslada-FCC/img_3326.jpg';
-import iberdrolaImg from '../../assets/images/obras/CampusIberdrola-Acciona/img_9510.jpg';
-import vallecasImg from '../../assets/images/obras/48ChaletsCruceDelArteVallecas/remotemediafile_6553783_0_2021_05_06_09_39_58.webp';
-import sanchinarroImg from '../../assets/images/obras/123ViviendasSanchinarro/img_8830.jpg';
-import matuteImg from '../../assets/images/obras/BibliotecaMunicipalAnaMariaMatute/img_3345.jpg';
-import humanesImg from '../../assets/images/obras/60ViviendasHumanesAlza/img_7641.jpg';
-import almansaImg from '../../assets/images/obras/95ViviendasSanJose-CalleAlmansa/img_5596.webp';
-import molinosImg from '../../assets/images/obras/196ViviendasLosMolinosGetafe-Acciona/196-viv-los-molinos-004-11810-terminado-5-planta-baja-ty-8-planta-sotano-y-no-entran-hasta-dias-despues.jpg';
-import majuelosImg from '../../assets/images/obras/DesvíoArroyoDeLosMajuelosBSCH/desvc3ado-del-arroyo-de-los-majuelos6.jpg';
-import eigoImg from '../../assets/images/obras/EIGO-CentroLogisticoPinto/img_8038.webp';
-import ginerImg from '../../assets/images/obras/FundacionFranciscoGinerDeLosRios/133.jpg';
-import inditexImg from '../../assets/images/obras/NaveInditexMontepino-Acciona/khy7cexaroeatkivxab6ow.webp';
-import nuiconImg from '../../assets/images/obras/48ViviendasUnifamiliares-Nuicon/1c899c85-55ec-4916-80c9-bf75f8dafccd.jpg';
-import butarqueImg from '../../assets/images/obras/174ViviendasButarque-Acciona/img_3375.jpg';
-import alcobendasImg from '../../assets/images/obras/PolideportivoAlcobendas/300620111612.jpg';
+import palosImg from '~/assets/images/obras/PalosdeLaFrontera/PUTJ5438.jpg';
+import bbvaImg from '~/assets/images/obras/NuevaSedeBBVALasTablas/img_2593.jpg';
+import atochaImg from '~/assets/images/obras/EdificioBosqueDeAtocha/img_8783.jpg';
+import togoImg from '~/assets/images/obras/EstructuraPuertodeLome-Togo/img_2762.jpg';
+import cubosImg from '~/assets/images/obras/RehabilitacionEdifLosCubosM30/ir7y2zbrrjwfrb7shipeba.jpg';
+import santanderImg from '~/assets/images/obras/CiudadFinancieraBancoSantanderBSCH/lagos-con-muro-curvo-en-ciudad-financiera-bsch-023.jpg';
+import aparcamientoImg from '~/assets/images/obras/AparcamientoAmazonCarbonellYFigueras/2580737a012bc765119a754165bc895b.webp';
+import majadahondaImg from '~/assets/images/obras/ViviendasExclusivasMajadahondaAfar4/gizrgxk0tbeo2xtwqjeu0w.webp';
+import getafeImg from '~/assets/images/obras/318ViviendasUniversidadCarlosIIIGetafe-Acciona/img_1149.jpg';
+import castellanaImg from '~/assets/images/obras/EdificioPaseoCastellana77-GrupoGmp/img_6132.jpg';
+import cosladaImg from '~/assets/images/obras/BibliotecaMunicipalCoslada-FCC/img_3326.jpg';
+import iberdrolaImg from '~/assets/images/obras/CampusIberdrola-Acciona/img_9510.jpg';
+import vallecasImg from '~/assets/images/obras/48ChaletsCruceDelArteVallecas/remotemediafile_6553783_0_2021_05_06_09_39_58.webp';
+import sanchinarroImg from '~/assets/images/obras/123ViviendasSanchinarro/img_8830.jpg';
+import matuteImg from '~/assets/images/obras/BibliotecaMunicipalAnaMariaMatute/img_3345.jpg';
+import humanesImg from '~/assets/images/obras/60ViviendasHumanesAlza/img_7641.jpg';
+import almansaImg from '~/assets/images/obras/95ViviendasSanJose-CalleAlmansa/img_5596.webp';
+import molinosImg from '~/assets/images/obras/196ViviendasLosMolinosGetafe-Acciona/196-viv-los-molinos-004-11810-terminado-5-planta-baja-ty-8-planta-sotano-y-no-entran-hasta-dias-despues.jpg';
+import majuelosImg from '~/assets/images/obras/DesvíoArroyoDeLosMajuelosBSCH/desvc3ado-del-arroyo-de-los-majuelos6.jpg';
+import eigoImg from '~/assets/images/obras/EIGO-CentroLogisticoPinto/img_8038.webp';
+import ginerImg from '~/assets/images/obras/FundacionFranciscoGinerDeLosRios/133.jpg';
+import inditexImg from '~/assets/images/obras/NaveInditexMontepino-Acciona/khy7cexaroeatkivxab6ow.webp';
+import nuiconImg from '~/assets/images/obras/48ViviendasUnifamiliares-Nuicon/1c899c85-55ec-4916-80c9-bf75f8dafccd.jpg';
+import butarqueImg from '~/assets/images/obras/174ViviendasButarque-Acciona/img_3375.jpg';
+import alcobendasImg from '~/assets/images/obras/PolideportivoAlcobendas/300620111612.jpg';
 
 // Datos de las obras con sus imágenes importadas
 const obras = [
