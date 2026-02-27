@@ -1,6 +1,5 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import { Image } from 'astro:assets';
 
 // Importar todas las imágenes de cada carpeta
 import palosImg from '~/assets/images/obras/PalosdeLaFrontera/PUTJ5438.jpg';
@@ -176,8 +175,8 @@ const obras = [
         {obras.map((obra, index) => (
           <article class="group">
             <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-              <Image
-                src={obra.imagen}
+              <img
+                src={obra.imagen.src}
                 alt={obra.titulo}
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform"
                 loading={index < 6 ? "eager" : "lazy"}
