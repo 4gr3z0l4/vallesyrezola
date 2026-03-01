@@ -47,7 +47,6 @@ export const footerData = {
       title: 'Contacto',
       links: [
         { text: 'Consultoría', href: getPermalink('/contacto') },
-        { text: 'Teléfono', href: 'tel:+34666xxxxxx' },
         { text: 'Email', href: 'mailto:info@vallesrezola.com' },
       ],
     },
