@@ -47,16 +47,12 @@ export const footerData = {
       title: 'Contacto',
       links: [
         { text: 'Consultoría', href: getPermalink('/contacto') },
-        { text: 'Email', href: 'mailto:info@vallesrezola.com' },
+        { text: 'Email', href: 'mailto:elu@vallesyrezola.es,miguelangel@vallesyrezola.es' },
       ],
     },
   ],
-  secondaryLinks: [
-    { text: 'Política de privacidad', href: getPermalink('/privacy') },
-    { text: 'Aviso legal', href: getPermalink('/terms') },
-  ],
   socialLinks: [
-    { ariaLabel: 'Email', icon: 'tabler:mail', href: 'mailto:info@vallesrezola.com' },
+    { ariaLabel: 'Email', icon: 'tabler:mail', href: 'mailto:elu@vallesyrezola.es,miguelangel@vallesyrezola.es' },
   ],
   footNote: `
     © ${new Date().getFullYear()} Valles y Rezola 
