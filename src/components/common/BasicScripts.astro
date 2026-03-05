@@ -18,17 +18,13 @@ import { UI } from 'astrowind:config';
   }
 
   const initTheme = function () {
-    if ((defaultTheme && defaultTheme.endsWith(':only')) || (!localStorage.theme && defaultTheme !== 'system')) {
-      applyTheme(defaultTheme.replace(':only', ''));
-    } else if (
-      localStorage.theme === 'dark' ||
-      (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-    ) {
+    if (localStorage.theme === 'dark') {
       applyTheme('dark');
     } else {
+      localStorage.removeItem('theme');
       applyTheme('light');
     }
-  };
+};
   initTheme();
 
   function attachEvent(selector, event, fn) {

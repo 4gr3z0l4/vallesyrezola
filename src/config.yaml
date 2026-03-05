@@ -1,6 +1,7 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Valles y Rezola
+  description: Estructuras de hormigón para obra civil y edificación en Madrid.
+  site: 'http://www.vallesyrezola.es'
   base: '/'
   trailingSlash: false
 
@@ -9,22 +10,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Valles y Rezola
+    template: '%s — Valles y Rezola'
+  description: "\U0001F680 Estructuras de hormigón para obra civil y edificación en Madrid."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Valles y Rezola
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
+    handle: '@4gr3z0l4'
+    site: '@4gr3z0l4'
     cardType: summary_large_image
 
 i18n:
