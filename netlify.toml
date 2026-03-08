@@ -9,3 +9,10 @@
   for = "/_astro/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# ====== DEMO NETLIFY: NOINDEX - BORRAR ANTES DE PRODUCTION ======
+[[headers]]
+  for = "/*"  # Aplica a TODAS las páginas
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive, nosnippet"
+# ====== FIN DEMO NETLIFY - BORRAR ESTOS 6 LÍNEAS EN ARSYS =======
