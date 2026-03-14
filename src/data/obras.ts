@@ -51,7 +51,7 @@ export const obras: Obra[] = [
     fotos: [palosImg],
     anio: 2025,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'hospital-general-rio-carrion',
@@ -63,7 +63,7 @@ export const obras: Obra[] = [
     fotos: [rioCarrionImg],
     anio: 2025,
     cliente: 'Acciona',
-    localizacion: 'Palencia'
+    localizacion: 'Palencia',
   },
   {
     slug: 'edificio-oficinas-pradillo',
@@ -75,7 +75,7 @@ export const obras: Obra[] = [
     fotos: [pradilloImg],
     anio: 2025,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'cc-la-vaguada',
@@ -87,7 +87,7 @@ export const obras: Obra[] = [
     fotos: [vaguadaImg],
     anio: 2024,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'sede-bbva-las-tablas',
@@ -99,7 +99,7 @@ export const obras: Obra[] = [
     fotos: [bbvaImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'edificio-bosque-atocha',
@@ -111,67 +111,62 @@ export const obras: Obra[] = [
     fotos: [atochaImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'estructura-puerto-lome-togo',
     imagen: togoImg,
     titulo: 'Estructura en Lome - Togo',
     descripcion: 'Estructura Puerto de Lome - Togo',
-    contenido:
-      'Estructuras de hormigón en el puerto de Lomé (Togo), adaptadas a condiciones marinas exigentes.',
+    contenido: 'Estructuras de hormigón en el puerto de Lomé (Togo), adaptadas a condiciones marinas exigentes.',
     fotos: [togoImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Lomé, Togo'
+    localizacion: 'Lomé, Togo',
   },
   {
     slug: 'rehabilitacion-los-cubos-m30',
     imagen: cubosImg,
     titulo: 'Rehabilitación Edificio Los Cubos',
     descripcion: 'Rehabilitación Edificio Los Cubos - M30',
-    contenido:
-      'Refuerzo estructural y adaptación del edificio de oficinas Los Cubos, junto a la M30 de Madrid.',
+    contenido: 'Refuerzo estructural y adaptación del edificio de oficinas Los Cubos, junto a la M30 de Madrid.',
     fotos: [cubosImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'ciudad-financiera-santander',
     imagen: santanderImg,
     titulo: 'Ciudad Financiera Banco Santander',
     descripcion: 'Lago con muro curvo',
-    contenido:
-      'Muros de contención y elementos singulares de hormigón en la Ciudad Financiera del Banco Santander.',
+    contenido: 'Muros de contención y elementos singulares de hormigón en la Ciudad Financiera del Banco Santander.',
     fotos: [santanderImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'aparcamiento-amazon-carbonell-figueras',
     imagen: aparcamientoImg,
     titulo: 'Aparcamiento Carbonell y Figueras',
     descripcion: 'Aparcamiento Amazon Carbonell y Figueras',
-    contenido:
-      'Estructura de aparcamiento de varias plantas para plataforma logística de Amazon.',
+    contenido: 'Estructura de aparcamiento de varias plantas para plataforma logística de Amazon.',
     fotos: [aparcamientoImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'viviendas-exclusivas-majadahonda',
     imagen: majadahondaImg,
     titulo: 'Viviendas exclusivas',
     descripcion: 'Viviendas exclusivas Majadahonda',
-    contenido:
-      'Conjunto residencial de alto standing en Majadahonda, con forjados reticulares y grandes voladizos.',
+    contenido: 'Conjunto residencial de alto standing en Majadahonda, con forjados reticulares y grandes voladizos.',
     fotos: [majadahondaImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: '318-viviendas-getafe',
@@ -183,7 +178,7 @@ export const obras: Obra[] = [
     fotos: [getafeImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Getafe, Madrid'
+    localizacion: 'Getafe, Madrid',
   },
   {
     slug: 'edificio-castellana-77',
@@ -195,7 +190,7 @@ export const obras: Obra[] = [
     fotos: [castellanaImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'biblioteca-municipal-coslada',
@@ -207,7 +202,7 @@ export const obras: Obra[] = [
     fotos: [cosladaImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'campus-iberdrola',
@@ -219,7 +214,7 @@ export const obras: Obra[] = [
     fotos: [iberdrolaImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: '48-chalets-vallecas',
@@ -231,151 +226,139 @@ export const obras: Obra[] = [
     fotos: [vallecasImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: '123-viviendas-sanchinarro',
     imagen: sanchinarroImg,
     titulo: '123 Viviendas - Madrid',
     descripcion: '123 Viviendas - Sanchinarro (Madrid)',
-    contenido:
-      'Edificio residencial en Sanchinarro con varias plantas de sótano y garaje.',
+    contenido: 'Edificio residencial en Sanchinarro con varias plantas de sótano y garaje.',
     fotos: [sanchinarroImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'biblioteca-ana-maria-matute',
     imagen: matuteImg,
     titulo: 'Biblioteca Municipal',
     descripcion: 'Biblioteca Municipal Ana María Matute',
-    contenido:
-      'Biblioteca municipal Ana María Matute, con grandes huecos de fachada y volúmenes en vuelo.',
+    contenido: 'Biblioteca municipal Ana María Matute, con grandes huecos de fachada y volúmenes en vuelo.',
     fotos: [matuteImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: '60-viviendas-humanes',
     imagen: humanesImg,
     titulo: '60 Viviendas Humanes',
     descripcion: '60 Viviendas Humanes Alza',
-    contenido:
-      'Conjunto residencial de 60 viviendas en Humanes, estructura tradicional de hormigón armado.',
+    contenido: 'Conjunto residencial de 60 viviendas en Humanes, estructura tradicional de hormigón armado.',
     fotos: [humanesImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Humanes, Madrid'
+    localizacion: 'Humanes, Madrid',
   },
   {
     slug: '95-viviendas-san-jose-almansa',
     imagen: almansaImg,
     titulo: '95 Viviendas San José',
     descripcion: '95 Viviendas San José - Calle Almansa',
-    contenido:
-      'Promoción de 95 viviendas en la calle Almansa (Madrid), con varias tipologías de forjado.',
+    contenido: 'Promoción de 95 viviendas en la calle Almansa (Madrid), con varias tipologías de forjado.',
     fotos: [almansaImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: '196-viviendas-los-molinos-getafe',
     imagen: molinosImg,
     titulo: '196 Viviendas Los Molinos - Getafe',
     descripcion: '196 Viviendas Los Molinos - Getafe - Acciona',
-    contenido:
-      'Desarrollo residencial de 196 viviendas en el barrio de Los Molinos (Getafe).',
+    contenido: 'Desarrollo residencial de 196 viviendas en el barrio de Los Molinos (Getafe).',
     fotos: [molinosImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'desvio-arroyo-majuelos',
     imagen: majuelosImg,
     titulo: 'Desvío Arroyo De Los Majuelos',
     descripcion: 'Desvío Arroyo De Los Majuelos - BSCH',
-    contenido:
-      'Obra hidráulica para el desvío del arroyo de los Majuelos, con muros y cajones de hormigón armado.',
+    contenido: 'Obra hidráulica para el desvío del arroyo de los Majuelos, con muros y cajones de hormigón armado.',
     fotos: [majuelosImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'edificio-logistico-eigo-pinto',
     imagen: eigoImg,
     titulo: 'Edificio EIGO',
     descripcion: 'Edificio EIGO - Centro Logístico Pinto',
-    contenido:
-      'Centro logístico en Pinto con grandes luces y losas de alta capacidad portante.',
+    contenido: 'Centro logístico en Pinto con grandes luces y losas de alta capacidad portante.',
     fotos: [eigoImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'fundacion-francisco-giner-rios',
     imagen: ginerImg,
     titulo: 'Edificio Fundación Francisco Giner de los Ríos',
     descripcion: 'Edificio Fundación Francisco Giner de los Ríos - Madrid',
-    contenido:
-      'Edificio institucional de la Fundación Francisco Giner de los Ríos, con elementos de hormigón visto.',
+    contenido: 'Edificio institucional de la Fundación Francisco Giner de los Ríos, con elementos de hormigón visto.',
     fotos: [ginerImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'nave-inditex-montepino',
     imagen: inditexImg,
     titulo: 'Nave Inditex Montepino',
     descripcion: 'Nave Inditex Montepino - Acciona',
-    contenido:
-      'Nave logística para Inditex en plataforma Montepino, grandes pórticos prefabricados.',
+    contenido: 'Nave logística para Inditex en plataforma Montepino, grandes pórticos prefabricados.',
     fotos: [inditexImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: '48-viviendas-unifamiliares-nuicon',
     imagen: nuiconImg,
     titulo: '48 Viviendas Unifamiliares',
     descripcion: '48 Viviendas Unifamiliares - Nuicon',
-    contenido:
-      'Conjunto de 48 viviendas unifamiliares con cimentación corrida y forjados unidireccionales.',
+    contenido: 'Conjunto de 48 viviendas unifamiliares con cimentación corrida y forjados unidireccionales.',
     fotos: [nuiconImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: '174-viviendas-butarque',
     imagen: butarqueImg,
     titulo: '174 Viviendas Butarque',
     descripcion: '174 Viviendas Butarque - Acciona',
-    contenido:
-      'Promoción de 174 viviendas en el barrio de Butarque (Madrid).',
+    contenido: 'Promoción de 174 viviendas en el barrio de Butarque (Madrid).',
     fotos: [butarqueImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
   {
     slug: 'polideportivo-alcobendas',
     imagen: alcobendasImg,
     titulo: 'Polideportivo Alcobendas',
     descripcion: 'Polideportivo Alcobendas - Madrid',
-    contenido:
-      'Instalación deportiva en Alcobendas con grandes luces en cubiertas y graderíos de hormigón.',
+    contenido: 'Instalación deportiva en Alcobendas con grandes luces en cubiertas y graderíos de hormigón.',
     fotos: [alcobendasImg],
     anio: 2020,
     cliente: 'Acciona',
-    localizacion: 'Madrid'
+    localizacion: 'Madrid',
   },
 ];
 

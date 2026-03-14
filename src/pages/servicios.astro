@@ -17,45 +17,42 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
     </section>
 
     <!-- Servicios detallados -->
- <Features
-  id="servicios-detalle"
-  tagline="Servicios"
-  title="Todo tipo de estructuras en hormigón armado"
-  subtitle="Ejecutamos con maquinaria propia y equipo técnico especializado."
-  items={[
-    { 
-      title: 'Cimentaciones', 
-      description: 'Zapatas, losas y pilotaje.', 
-      icon: 'tabler:building'           // ✅ correcto
-    },
-    { 
-      title: 'Forjados', 
-      description: 'Unidireccionales y reticulares.', 
-      icon: 'tabler:building-skyscraper' // ✅ correcto  
-    },
-    { 
-      title: 'Muros', 
-      description: 'Contención y sótanos.', 
-      icon: 'tabler:building-fortress'   // ✅ correcto
-    },
-    { 
-      title: 'Naves industriales', 
-      description: 'Pabellones y almacenes.', 
-      icon: 'tabler:building-warehouse'  // ✅ correcto
-    },
-    { 
-      title: 'Obras especiales', 
-      description: 'Depósitos y elementos singulares.', 
-      icon: 'tabler:tools'               // ✅ correcto
-    },
-  ]}
-/>
-
+    <Features
+      id="servicios-detalle"
+      tagline="Servicios"
+      title="Todo tipo de estructuras en hormigón armado"
+      subtitle="Ejecutamos con maquinaria propia y equipo técnico especializado."
+      items={[
+        {
+          title: 'Cimentaciones',
+          description: 'Zapatas, losas y pilotaje.',
+          icon: 'tabler:building', // ✅ correcto
+        },
+        {
+          title: 'Forjados',
+          description: 'Unidireccionales y reticulares.',
+          icon: 'tabler:building-skyscraper', // ✅ correcto
+        },
+        {
+          title: 'Muros',
+          description: 'Contención y sótanos.',
+          icon: 'tabler:building-fortress', // ✅ correcto
+        },
+        {
+          title: 'Naves industriales',
+          description: 'Pabellones y almacenes.',
+          icon: 'tabler:building-warehouse', // ✅ correcto
+        },
+        {
+          title: 'Obras especiales',
+          description: 'Depósitos y elementos singulares.',
+          icon: 'tabler:tools', // ✅ correcto
+        },
+      ]}
+    />
 
     <!-- CTA -->
-    <CallToAction
-      actions={[{ variant: 'primary', text: 'Contacto', href: '/contacto', icon: 'tabler:address-book' }]}
-    >
+    <CallToAction actions={[{ variant: 'primary', text: 'Contacto', href: '/contacto', icon: 'tabler:address-book' }]}>
       <Fragment slot="title">¿Estructura para tu proyecto?</Fragment>
       <Fragment slot="subtitle">Ponte en contacto con nosotros.</Fragment>
     </CallToAction>

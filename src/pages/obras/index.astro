@@ -16,22 +16,24 @@ import { obras } from '~/data/obras';
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {obras.map((obra, index) => (
-          <article class="group">
-            <a href={`/obras/${obra.slug}`}>
-              <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-                <img
-                  src={obra.imagen.src}
-                  alt={obra.titulo}
-                  class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                  loading={index < 6 ? 'eager' : 'lazy'}
-                />
-              </div>
-              <h3 class="mt-4 font-bold text-xl">{obra.titulo}</h3>
-              <p class="text-slate-600 mt-1">{obra.descripcion}</p>
-            </a>
-          </article>
-        ))}
+        {
+          obras.map((obra, index) => (
+            <article class="group">
+              <a href={`/obras/${obra.slug}`}>
+                <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
+                  <img
+                    src={obra.imagen.src}
+                    alt={obra.titulo}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    loading={index < 6 ? 'eager' : 'lazy'}
+                  />
+                </div>
+                <h3 class="mt-4 font-bold text-xl">{obra.titulo}</h3>
+                <p class="text-slate-600 mt-1">{obra.descripcion}</p>
+              </a>
+            </article>
+          ))
+        }
       </div>
     </section>
   </div>
