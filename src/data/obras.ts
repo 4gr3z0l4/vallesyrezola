@@ -2,34 +2,34 @@
 import type { ImageMetadata } from 'astro';
 
 // Importar TODAS las imágenes principales (una por obra)
-import palosImg from '~/assets/images/obras/palosdelafrontera/putj5438.jpg';
-import rioCarrionImg from '~/assets/images/obras/hospitalriocarrionpalenciaacciona/dji_fly_plantasegunda.webp';
-import pradilloImg from '~/assets/images/obras/oficinascallepradillo/oficinas-pradillo-1.jpg';
-import vaguadaImg from '~/assets/images/obras/centrocomerciallavaguada/026e4-5c15444e-d0f2-46e9-929d-a055a5e02f27-1.webp';
-import bbvaImg from '~/assets/images/obras/nuevasedebbvalastablas/img_2593.jpg';
-import atochaImg from '~/assets/images/obras/edificiobosquedeatocha/img_8783.jpg';
-import togoImg from '~/assets/images/obras/estructurapuertodelome-togo/img_2762.jpg';
-import cubosImg from '~/assets/images/obras/rehabilitacionedifloscubosm30/ir7y2zbrrjwfrb7shipeba.jpg';
-import santanderImg from '~/assets/images/obras/ciudadfinancierabancosantanderbsch/lagos-con-muro-curvo-en-ciudad-financiera-bsch-023.jpg';
-import aparcamientoImg from '~/assets/images/obras/aparcamientoamazoncarbonellyfigueras/2580737a012bc765119a754165bc895b.webp';
-import majadahondaImg from '~/assets/images/obras/viviendasexclusivasmajadahondaafar4/gizrgxk0tbeo2xtwqjeu0w.webp';
-import getafeImg from '~/assets/images/obras/318viviendasuniversidadcarlosiiigetafe-acciona/img_1149.jpg';
-import castellanaImg from '~/assets/images/obras/edificiopaseocastellana77-grupogmp/img_6132.jpg';
-import cosladaImg from '~/assets/images/obras/bibliotecamunicipalcoslada-fcc/img_3326.jpg';
-import iberdrolaImg from '~/assets/images/obras/campusiberdrola-acciona/img_9510.jpg';
-import vallecasImg from '~/assets/images/obras/48chaletscrucedelartevallecas/remotemediafile_6553783_0_2021_05_06_09_39_58.webp';
-import sanchinarroImg from '~/assets/images/obras/123viviendassanchinarro/img_8830.jpg';
-import matuteImg from '~/assets/images/obras/bibliotecamunicipalanamariamatute/img_3345.jpg';
-import humanesImg from '~/assets/images/obras/60viviendashumanesalza/img_7641.jpg';
-import almansaImg from '~/assets/images/obras/95viviendassanjose-callealmansa/img_5596.webp';
-import molinosImg from '~/assets/images/obras/196viviendaslosmolinosgetafe-acciona/196-viv-los-molinos-004-11810-terminado-5-planta-baja-ty-8-planta-sotano-y-no-entran-hasta-dias-despues.jpg';
-import majuelosImg from '~/assets/images/obras/desvíoarroyodelosmajuelosbsch/desvc3ado-del-arroyo-de-los-majuelos6.jpg';
-import eigoImg from '~/assets/images/obras/eigo-centrologisticopinto/img_8038.webp';
-import ginerImg from '~/assets/images/obras/fundacionfranciscoginerdelosrios/133.jpg';
-import inditexImg from '~/assets/images/obras/naveinditexmontepino-acciona/khy7cexaroeatkivxab6ow.webp';
-import nuiconImg from '~/assets/images/obras/48viviendasunifamiliares-nuicon/1c899c85-55ec-4916-80c9-bf75f8dafccd.jpg';
-import butarqueImg from '~/assets/images/obras/174viviendasbutarque-acciona/img_3375.jpg';
-import alcobendasImg from '~/assets/images/obras/polideportivoalcobendas/300620111612.jpg';
+import palosImg from '~/assets/images/obras/palosdelafrontera/1.jpg';
+import rioCarrionImg from '~/assets/images/obras/hospitalriocarrionpalenciaacciona/1.jpg';
+import pradilloImg from '~/assets/images/obras/oficinascallepradillo/1.jpg';
+import vaguadaImg from '~/assets/images/obras/centrocomerciallavaguada/1.webp';
+import bbvaImg from '~/assets/images/obras/nuevasedebbvalastablas/1.jpg';
+import atochaImg from '~/assets/images/obras/edificiobosquedeatocha/1.jpg';
+import togoImg from '~/assets/images/obras/estructurapuertodelome-togo/1.jpg';
+import cubosImg from '~/assets/images/obras/rehabilitacionedifloscubosm30/1.jpg';
+import santanderImg from '~/assets/images/obras/ciudadfinancierabancosantanderbsch/1.jpg';
+import aparcamientoImg from '~/assets/images/obras/aparcamientoamazoncarbonellyfigueras/1.webp';
+import majadahondaImg from '~/assets/images/obras/viviendasexclusivasmajadahondaafar4/1.webp';
+import getafeImg from '~/assets/images/obras/318viviendasuniversidadcarlosiiigetafe-acciona/1.jpg';
+import castellanaImg from '~/assets/images/obras/edificiopaseocastellana77-grupogmp/1.jpg';
+import cosladaImg from '~/assets/images/obras/bibliotecamunicipalcoslada-fcc/1.jpg';
+import iberdrolaImg from '~/assets/images/obras/campusiberdrola-acciona/1.jpg';
+import vallecasImg from '~/assets/images/obras/48chaletscrucedelartevallecas/1.webp';
+import sanchinarroImg from '~/assets/images/obras/123viviendassanchinarro/1.jpg';
+import matuteImg from '~/assets/images/obras/bibliotecamunicipalanamariamatute/1.jpg';
+import humanesImg from '~/assets/images/obras/60viviendashumanesalza/1.jpg';
+import almansaImg from '~/assets/images/obras/95viviendassanjose-callealmansa/1.webp';
+import molinosImg from '~/assets/images/obras/196viviendaslosmolinosgetafe-acciona/1.jpg';
+import majuelosImg from '~/assets/images/obras/desvíoarroyodelosmajuelosbsch/1.jpg';
+import eigoImg from '~/assets/images/obras/eigo-centrologisticopinto/1.webp';
+import ginerImg from '~/assets/images/obras/fundacionfranciscoginerdelosrios/1.jpg';
+import inditexImg from '~/assets/images/obras/naveinditexmontepino-acciona/1.jpg';
+import nuiconImg from '~/assets/images/obras/48viviendasunifamiliares-nuicon/1.jpg';
+import butarqueImg from '~/assets/images/obras/174viviendasbutarque-acciona/1.jpg';
+import alcobendasImg from '~/assets/images/obras/polideportivoalcobendas/1.jpg';
 
 export type Obra = {
   slug: string;
@@ -54,7 +54,23 @@ export const obras: Obra[] = [
     anio: 2023,
     cliente: 'Comunidad de Madrid',
     localizacion: 'Madrid',
-    fotos: ['palosdelafrontera/putj5438.jpg'],
+    fotos: [
+      'palosdelafrontera/1.jpg',
+      'palosdelafrontera/2.jpg',
+      'palosdelafrontera/3.jpg',
+      'palosdelafrontera/4.jpg',
+      'palosdelafrontera/5.jpg',
+      'palosdelafrontera/6.jpg',
+      'palosdelafrontera/7.jpg',
+      'palosdelafrontera/8.jpg',
+      'palosdelafrontera/9.jpg',
+      'palosdelafrontera/10.jpg',
+      'palosdelafrontera/11.jpg',
+      'palosdelafrontera/12.jpg',
+      'palosdelafrontera/13.jpg',
+      'palosdelafrontera/14.jpg',
+      'palosdelafrontera/15.jpg',
+    ],
   },
   {
     slug: 'hospitalriocarrionpalenciaacciona',
@@ -66,7 +82,15 @@ export const obras: Obra[] = [
     anio: 2022,
     cliente: 'Junta de Castilla y León',
     localizacion: 'Palencia',
-    fotos: ['hospitalriocarrionpalenciaacciona/dji_fly_plantasegunda.webp'],
+    fotos: [
+      'hospitalriocarrionpalenciaacciona/1.jpg',
+      'hospitalriocarrionpalenciaacciona/2.webp',
+      'hospitalriocarrionpalenciaacciona/3.webp',
+      'hospitalriocarrionpalenciaacciona/4.webp',
+      'hospitalriocarrionpalenciaacciona/5.webp',
+      'hospitalriocarrionpalenciaacciona/6.webp',
+      'hospitalriocarrionpalenciaacciona/7.webp',
+    ],
   },
   {
     slug: 'oficinascallepradillo',
@@ -78,7 +102,27 @@ export const obras: Obra[] = [
     anio: 2021,
     cliente: 'Acciona',
     localizacion: 'Madrid',
-    fotos: ['oficinascallepradillo/oficinas-pradillo-1.jpg'],
+    fotos: [
+      'oficinascallepradillo/1.jpg',
+      'oficinascallepradillo/2.jpg',
+      'oficinascallepradillo/3.jpg',
+      'oficinascallepradillo/4.jpg',
+      'oficinascallepradillo/5.jpg',
+      'oficinascallepradillo/6.jpg',
+      'oficinascallepradillo/7.jpg',
+      'oficinascallepradillo/8.jpg',
+      'oficinascallepradillo/9.jpg',
+      'oficinascallepradillo/10.jpg',
+      'oficinascallepradillo/11.jpg',
+      'oficinascallepradillo/12.jpg',
+      'oficinascallepradillo/13.jpg',
+      'oficinascallepradillo/14.jpg',
+      'oficinascallepradillo/15.jpg',
+      'oficinascallepradillo/16.jpg',
+      'oficinascallepradillo/17.jpg',
+      'oficinascallepradillo/18.jpg',
+      'oficinascallepradillo/19.jpg',
+    ],
   },
   {
     slug: 'centrocomerciallavaguada',
@@ -90,7 +134,13 @@ export const obras: Obra[] = [
     anio: 2020,
     cliente: 'Mercado Inmobiliario',
     localizacion: 'Madrid',
-    fotos: ['centrocomerciallavaguada/026e4-5c15444e-d0f2-46e9-929d-a055a5e02f27-1.webp'],
+    fotos: [
+      'centrocomerciallavaguada/1.webp',
+      'centrocomerciallavaguada/2.webp',
+      'centrocomerciallavaguada/3.webp',
+      'centrocomerciallavaguada/4.webp',
+      'centrocomerciallavaguada/5.webp',
+    ],
   },
   {
     slug: 'nuevasedebbvalastablas',
@@ -102,7 +152,21 @@ export const obras: Obra[] = [
     anio: 2019,
     cliente: 'BBVA',
     localizacion: 'Madrid',
-    fotos: ['nuevasedebbvalastablas/img_2593.jpg'],
+    fotos: [
+      'nuevasedebbvalastablas/1.jpg',
+      'nuevasedebbvalastablas/2.jpg',
+      'nuevasedebbvalastablas/3.jpg',
+      'nuevasedebbvalastablas/4.jpg',
+      'nuevasedebbvalastablas/5.jpg',
+      'nuevasedebbvalastablas/6.jpg',
+      'nuevasedebbvalastablas/7.jpg',
+      'nuevasedebbvalastablas/8.jpg',
+      'nuevasedebbvalastablas/9.jpg',
+      'nuevasedebbvalastablas/10.jpg',
+      'nuevasedebbvalastablas/11.jpg',
+      'nuevasedebbvalastablas/12.jpg',
+      'nuevasedebbvalastablas/13.jpg',
+    ],
   },
   {
     slug: 'edificiobosquedeatocha',
@@ -114,67 +178,111 @@ export const obras: Obra[] = [
     anio: 2021,
     cliente: 'Promotora privada',
     localizacion: 'Madrid',
-    fotos: ['edificiobosquedeatocha/img_8783.jpg'],
+    fotos: [
+      'edificiobosquedeatocha/1.jpg',
+      'edificiobosquedeatocha/2.jpg',
+      'edificiobosquedeatocha/3.jpg',
+      'edificiobosquedeatocha/4.jpg',
+      'edificiobosquedeatocha/5.jpg',
+      'edificiobosquedeatocha/6.jpg',
+      'edificiobosquedeatocha/7.jpg',
+      'edificiobosquedeatocha/8.jpg',
+      'edificiobosquedeatocha/9.jpg',
+      'edificiobosquedeatocha/10.jpg',
+      'edificiobosquedeatocha/11.jpg',
+      'edificiobosquedeatocha/12.jpg',
+      'edificiobosquedeatocha/13.jpg',
+    ],
   },
   {
     slug: 'estructurapuertodelome-togo',
     imagen: togoImg,
     titulo: 'Estructura en Lome - Togo',
     descripcion: 'Estructura Puerto de Lome - Togo',
-    contenido:
-      'Estructuras de hormigón en el puerto de Lomé (Togo), adaptadas a condiciones marinas exigentes.',
+    contenido: 'Estructuras de hormigón en el puerto de Lomé (Togo), adaptadas a condiciones marinas exigentes.',
     anio: 2022,
     cliente: 'Autoridad Portuaria de Lomé',
     localizacion: 'Lomé, Togo',
-    fotos: ['estructurapuertodelome-togo/img_2762.jpg'],
+    fotos: [
+      'estructurapuertodelome-togo/1.jpg',
+      'estructurapuertodelome-togo/2.jpg',
+      'estructurapuertodelome-togo/3.jpg',
+      'estructurapuertodelome-togo/4.jpg',
+    ],
   },
   {
     slug: 'rehabilitacionedifloscubosm30',
     imagen: cubosImg,
     titulo: 'Rehabilitación Edificio Los Cubos',
     descripcion: 'Rehabilitación Edificio Los Cubos - M30',
-    contenido:
-      'Refuerzo estructural y adaptación del edificio de oficinas Los Cubos, junto a la M30 de Madrid.',
+    contenido: 'Refuerzo estructural y adaptación del edificio de oficinas Los Cubos, junto a la M30 de Madrid.',
     anio: 2020,
     cliente: 'Propietario privado',
     localizacion: 'Madrid',
-    fotos: ['rehabilitacionedifloscubosm30/ir7y2zbrrjwfrb7shipeba.jpg'],
+    fotos: [
+      'rehabilitacionedifloscubosm30/1.jpg',
+      'rehabilitacionedifloscubosm30/2.jpg',
+      'rehabilitacionedifloscubosm30/3.jpg',
+      'rehabilitacionedifloscubosm30/4.jpg',
+      'rehabilitacionedifloscubosm30/5.jpg',
+      'rehabilitacionedifloscubosm30/6.jpg',
+      'rehabilitacionedifloscubosm30/7.jpg',
+      'rehabilitacionedifloscubosm30/8.jpg',
+      'rehabilitacionedifloscubosm30/9.jpg',
+      'rehabilitacionedifloscubosm30/10.jpg',
+      'rehabilitacionedifloscubosm30/11.jpg',
+      'rehabilitacionedifloscubosm30/12.jpg',
+      'rehabilitacionedifloscubosm30/13.jpg',
+      'rehabilitacionedifloscubosm30/14.jpg',
+      'rehabilitacionedifloscubosm30/15.jpg',
+    ],
   },
   {
     slug: 'ciudadfinancierabancosantanderbsch',
     imagen: santanderImg,
     titulo: 'Ciudad Financiera Banco Santander',
     descripcion: 'Lago con muro curvo',
-    contenido:
-      'Muros de contención y elementos singulares de hormigón en la Ciudad Financiera del Banco Santander.',
+    contenido: 'Muros de contención y elementos singulares de hormigón en la Ciudad Financiera del Banco Santander.',
     anio: 2018,
     cliente: 'Banco Santander',
     localizacion: 'Boadilla del Monte, Madrid',
-    fotos: ['ciudadfinancierabancosantanderbsch/lagos-con-muro-curvo-en-ciudad-financiera-bsch-023.jpg'],
+    fotos: ['ciudadfinancierabancosantanderbsch/1.jpg', 'ciudadfinancierabancosantanderbsch/2.jpg'],
   },
   {
     slug: 'aparcamientoamazoncarbonellyfigueras',
     imagen: aparcamientoImg,
     titulo: 'Aparcamiento Carbonell y Figueras',
     descripcion: 'Aparcamiento Amazon Carbonell y Figueras',
-    contenido:
-      'Estructura de aparcamiento de varias plantas para plataforma logística de Amazon.',
+    contenido: 'Estructura de aparcamiento de varias plantas para plataforma logística de Amazon.',
     anio: 2023,
     cliente: 'Carbonell y Figueras',
     localizacion: 'Madrid',
-    fotos: ['aparcamientoamazoncarbonellyfigueras/2580737a012bc765119a754165bc895b.webp'],
+    fotos: [
+      'aparcamientoamazoncarbonellyfigueras/1.webp',
+      'aparcamientoamazoncarbonellyfigueras/2.webp',
+      'aparcamientoamazoncarbonellyfigueras/3.webp',
+      'aparcamientoamazoncarbonellyfigueras/4.webp',
+      'aparcamientoamazoncarbonellyfigueras/5.webp',
+      'aparcamientoamazoncarbonellyfigueras/6.webp',
+      'aparcamientoamazoncarbonellyfigueras/7.webp',
+      'aparcamientoamazoncarbonellyfigueras/8.webp',
+    ],
   },
   {
     slug: 'viviendasexclusivasmajadahondaafar4',
     imagen: majadahondaImg,
     titulo: 'Viviendas exclusivas',
     descripcion: 'Viviendas exclusivas Majadahonda',
-    contenido:
-      'Conjunto residencial de alto standing en Majadahonda, con forjados reticulares y grandes voladizos.',
+    contenido: 'Conjunto residencial de alto standing en Majadahonda, con forjados reticulares y grandes voladizos.',
     anio: 2021,
     cliente: 'AFAR4',
     localizacion: 'Majadahonda, Madrid',
-    fotos: ['viviendasexclusivasmajadahondaafar4/gizrgxk0tbeo2xtwqjeu0w.webp'],
+    fotos: [
+      'viviendasexclusivasmajadahondaafar4/1.webp',
+      'viviendasexclusivasmajadahondaafar4/2.webp',
+      'viviendasexclusivasmajadahondaafar4/3.webp',
+      'viviendasexclusivasmajadahondaafar4/4.webp',
+    ],
   },
   {
     slug: '318viviendasuniversidadcarlosiiigetafe-acciona',
@@ -186,7 +294,13 @@ export const obras: Obra[] = [
     anio: 2022,
     cliente: 'Acciona',
     localizacion: 'Getafe, Madrid',
-    fotos: ['318viviendasuniversidadcarlosiiigetafe-acciona/img_1149.jpg'],
+    fotos: [
+      '318viviendasuniversidadcarlosiiigetafe-acciona/1.jpg',
+      '318viviendasuniversidadcarlosiiigetafe-acciona/2.jpg',
+      '318viviendasuniversidadcarlosiiigetafe-acciona/3.jpg',
+      '318viviendasuniversidadcarlosiiigetafe-acciona/4.jpg',
+      '318viviendasuniversidadcarlosiiigetafe-acciona/5.jpg',
+    ],
   },
   {
     slug: 'edificiopaseocastellana77-grupogmp',
@@ -198,7 +312,12 @@ export const obras: Obra[] = [
     anio: 2020,
     cliente: 'Grupo GMP',
     localizacion: 'Madrid',
-    fotos: ['edificiopaseocastellana77-grupogmp/img_6132.jpg'],
+    fotos: [
+      'edificiopaseocastellana77-grupogmp/1.jpg',
+      'edificiopaseocastellana77-grupogmp/2.jpg',
+      'edificiopaseocastellana77-grupogmp/3.jpg',
+      'edificiopaseocastellana77-grupogmp/4.jpg',
+    ],
   },
   {
     slug: 'bibliotecamunicipalcoslada-fcc',
@@ -210,7 +329,11 @@ export const obras: Obra[] = [
     anio: 2019,
     cliente: 'FCC',
     localizacion: 'Coslada, Madrid',
-    fotos: ['bibliotecamunicipalcoslada-fcc/img_3326.jpg'],
+    fotos: [
+      'bibliotecamunicipalcoslada-fcc/1.jpg',
+      'bibliotecamunicipalcoslada-fcc/2.jpg',
+      'bibliotecamunicipalcoslada-fcc/3.jpg',
+    ],
   },
   {
     slug: 'campusiberdrola-acciona',
@@ -222,7 +345,13 @@ export const obras: Obra[] = [
     anio: 2021,
     cliente: 'Acciona',
     localizacion: 'Valdepeñas, Ciudad Real',
-    fotos: ['campusiberdrola-acciona/img_9510.jpg'],
+    fotos: [
+      'campusiberdrola-acciona/1.jpg',
+      'campusiberdrola-acciona/2.jpg',
+      'campusiberdrola-acciona/3.jpg',
+      'campusiberdrola-acciona/4.jpg',
+      'campusiberdrola-acciona/5.jpg',
+    ],
   },
   {
     slug: '48chaletscrucedelartevallecas',
@@ -234,68 +363,104 @@ export const obras: Obra[] = [
     anio: 2021,
     cliente: 'Promotora privada',
     localizacion: 'Madrid',
-    fotos: ['48chaletscrucedelartevallecas/remotemediafile_6553783_0_2021_05_06_09_39_58.webp'],
+    fotos: [
+      '48chaletscrucedelartevallecas/1.webp',
+      '48chaletscrucedelartevallecas/2.webp',
+      '48chaletscrucedelartevallecas/3.webp',
+      '48chaletscrucedelartevallecas/4.webp',
+      '48chaletscrucedelartevallecas/5.webp',
+      '48chaletscrucedelartevallecas/6.webp',
+      '48chaletscrucedelartevallecas/7.webp',
+      '48chaletscrucedelartevallecas/8.webp',
+      '48chaletscrucedelartevallecas/9.webp',
+      '48chaletscrucedelartevallecas/10.webp',
+      '48chaletscrucedelartevallecas/11.webp',
+      '48chaletscrucedelartevallecas/12.webp',
+    ],
   },
   {
     slug: '123viviendassanchinarro',
     imagen: sanchinarroImg,
     titulo: '123 Viviendas - Madrid',
     descripcion: '123 Viviendas - Sanchinarro (Madrid)',
-    contenido:
-      'Edificio residencial en Sanchinarro con varias plantas de sótano y garaje.',
+    contenido: 'Edificio residencial en Sanchinarro con varias plantas de sótano y garaje.',
     anio: 2020,
     cliente: 'Promotora privada',
     localizacion: 'Sanchinarro, Madrid',
-    fotos: ['123viviendassanchinarro/img_8830.jpg'],
+    fotos: [
+      '123viviendassanchinarro/1.jpg',
+      '123viviendassanchinarro/2.jpg',
+      '123viviendassanchinarro/3.jpg',
+      '123viviendassanchinarro/4.jpg',
+      '123viviendassanchinarro/5.jpg',
+      '123viviendassanchinarro/6.jpg',
+      '123viviendassanchinarro/7.jpg',
+      '123viviendassanchinarro/8.jpg',
+      '123viviendassanchinarro/9.jpg',
+      '123viviendassanchinarro/10.jpg',
+      '123viviendassanchinarro/11.jpg',
+    ],
   },
   {
     slug: 'bibliotecamunicipalanamariamatute',
     imagen: matuteImg,
     titulo: 'Biblioteca Municipal',
     descripcion: 'Biblioteca Municipal Ana María Matute',
-    contenido:
-      'Biblioteca municipal Ana María Matute, con grandes huecos de fachada y volúmenes en vuelo.',
+    contenido: 'Biblioteca municipal Ana María Matute, con grandes huecos de fachada y volúmenes en vuelo.',
     anio: 2019,
     cliente: 'Ayuntamiento de Madrid',
     localizacion: 'Madrid',
-    fotos: ['bibliotecamunicipalanamariamatute/img_3345.jpg'],
+    fotos: [
+      'bibliotecamunicipalanamariamatute/1.jpg',
+      'bibliotecamunicipalanamariamatute/2.jpg',
+      'bibliotecamunicipalanamariamatute/3.jpg',
+      'bibliotecamunicipalanamariamatute/4.jpg',
+      'bibliotecamunicipalanamariamatute/5.jpg',
+    ],
   },
   {
     slug: '60viviendashumanesalza',
     imagen: humanesImg,
     titulo: '60 Viviendas Humanes',
     descripcion: '60 Viviendas Humanes Alza',
-    contenido:
-      'Conjunto residencial de 60 viviendas en Humanes, estructura tradicional de hormigón armado.',
+    contenido: 'Conjunto residencial de 60 viviendas en Humanes, estructura tradicional de hormigón armado.',
     anio: 2022,
     cliente: 'Alza',
     localizacion: 'Humanes de Madrid',
-    fotos: ['60viviendashumanesalza/img_7641.jpg'],
+    fotos: ['60viviendashumanesalza/1.jpg', '60viviendashumanesalza/2.jpg'],
   },
   {
     slug: '95viviendassanjose-callealmansa',
     imagen: almansaImg,
     titulo: '95 Viviendas San José',
     descripcion: '95 Viviendas San José - Calle Almansa',
-    contenido:
-      'Promoción de 95 viviendas en la calle Almansa (Madrid), con varias tipologías de forjado.',
+    contenido: 'Promoción de 95 viviendas en la calle Almansa (Madrid), con varias tipologías de forjado.',
     anio: 2021,
     cliente: 'San José',
     localizacion: 'Madrid',
-    fotos: ['95viviendassanjose-callealmansa/img_5596.webp'],
+    fotos: [
+      '95viviendassanjose-callealmansa/1.webp',
+      '95viviendassanjose-callealmansa/2.webp',
+      '95viviendassanjose-callealmansa/3.webp',
+      '95viviendassanjose-callealmansa/4.webp',
+      '95viviendassanjose-callealmansa/5.webp',
+      '95viviendassanjose-callealmansa/6.webp',
+      '95viviendassanjose-callealmansa/7.webp',
+    ],
   },
   {
     slug: '196viviendaslosmolinosgetafe-acciona',
     imagen: molinosImg,
     titulo: '196 Viviendas Los Molinos - Getafe',
     descripcion: '196 Viviendas Los Molinos - Getafe - Acciona',
-    contenido:
-      'Desarrollo residencial de 196 viviendas en el barrio de Los Molinos (Getafe).',
+    contenido: 'Desarrollo residencial de 196 viviendas en el barrio de Los Molinos (Getafe).',
     anio: 2023,
     cliente: 'Acciona',
     localizacion: 'Getafe, Madrid',
     fotos: [
-      '196viviendaslosmolinosgetafe-acciona/196-viv-los-molinos-004-11810-terminado-5-planta-baja-ty-8-planta-sotano-y-no-entran-hasta-dias-despues.jpg',
+      '196viviendaslosmolinosgetafe-acciona/1.jpg',
+      '196viviendaslosmolinosgetafe-acciona/2.jpg',
+      '196viviendaslosmolinosgetafe-acciona/3.jpg',
     ],
   },
   {
@@ -303,84 +468,130 @@ export const obras: Obra[] = [
     imagen: majuelosImg,
     titulo: 'Desvío Arroyo De Los Majuelos',
     descripcion: 'Desvío Arroyo De Los Majuelos - BSCH',
-    contenido:
-      'Obra hidráulica para el desvío del arroyo de los Majuelos, con muros y cajones de hormigón armado.',
+    contenido: 'Obra hidráulica para el desvío del arroyo de los Majuelos, con muros y cajones de hormigón armado.',
     anio: 2018,
     cliente: 'BSCH',
     localizacion: 'Madrid',
-    fotos: ['desvioarroyodelosmajuelosbsch/desvc3ado-del-arroyo-de-los-majuelos6.jpg'],
+    fotos: ['desvioarroyodelosmajuelosbsch/1.jpg'],
   },
   {
     slug: 'eigo-centrologisticopinto',
     imagen: eigoImg,
     titulo: 'Edificio EIGO',
     descripcion: 'Edificio EIGO - Centro Logístico Pinto',
-    contenido:
-      'Centro logístico en Pinto con grandes luces y losas de alta capacidad portante.',
+    contenido: 'Centro logístico en Pinto con grandes luces y losas de alta capacidad portante.',
     anio: 2022,
     cliente: 'EIGO',
     localizacion: 'Pinto, Madrid',
-    fotos: ['eigo-centrologisticopinto/img_8038.webp'],
+    fotos: [
+      'eigo-centrologisticopinto/1.webp',
+      'eigo-centrologisticopinto/2.webp',
+      'eigo-centrologisticopinto/3.webp',
+      'eigo-centrologisticopinto/4.webp',
+      'eigo-centrologisticopinto/5.webp',
+      'eigo-centrologisticopinto/6.webp',
+    ],
   },
   {
     slug: 'fundacionfranciscoginerdelosrios',
     imagen: ginerImg,
     titulo: 'Edificio Fundación Francisco Giner de los Ríos',
     descripcion: 'Edificio Fundación Francisco Giner de los Ríos - Madrid',
-    contenido:
-      'Edificio institucional de la Fundación Francisco Giner de los Ríos, con elementos de hormigón visto.',
+    contenido: 'Edificio institucional de la Fundación Francisco Giner de los Ríos, con elementos de hormigón visto.',
     anio: 2020,
     cliente: 'Fundación Francisco Giner',
     localizacion: 'Madrid',
-    fotos: ['fundacionfranciscoginerdelosrios/133.jpg'],
+    fotos: ['fundacionfranciscoginerdelosrios/1.jpg'],
   },
   {
     slug: 'naveinditexmontepino-acciona',
     imagen: inditexImg,
     titulo: 'Nave Inditex Montepino',
     descripcion: 'Nave Inditex Montepino - Acciona',
-    contenido:
-      'Nave logística para Inditex en plataforma Montepino, grandes pórticos prefabricados.',
+    contenido: 'Nave logística para Inditex en plataforma Montepino, grandes pórticos prefabricados.',
     anio: 2023,
     cliente: 'Acciona',
     localizacion: 'Montepino, Madrid',
-    fotos: ['naveinditexmontepino-acciona/khy7cexaroeatkivxab6ow.webp'],
+    fotos: [
+      'naveinditexmontepino-acciona/1.jpg',
+      'naveinditexmontepino-acciona/2.jpg',
+      'naveinditexmontepino-acciona/3.jpg',
+      'naveinditexmontepino-acciona/4.jpg',
+      'naveinditexmontepino-acciona/5.jpg',
+      'naveinditexmontepino-acciona/6.jpg',
+      'naveinditexmontepino-acciona/7.jpg',
+      'naveinditexmontepino-acciona/8.jpg',
+      'naveinditexmontepino-acciona/9.jpg',
+      'naveinditexmontepino-acciona/10.jpg',
+      'naveinditexmontepino-acciona/11.jpg',
+      'naveinditexmontepino-acciona/12.jpg',
+      'naveinditexmontepino-acciona/13.jpg',
+      'naveinditexmontepino-acciona/14.jpg',
+      'naveinditexmontepino-acciona/15.jpg',
+      'naveinditexmontepino-acciona/16.jpg',
+      'naveinditexmontepino-acciona/17.jpg',
+      'naveinditexmontepino-acciona/18.jpg',
+      'naveinditexmontepino-acciona/19.jpg',
+      'naveinditexmontepino-acciona/20.jpg',
+      'naveinditexmontepino-acciona/21.jpg',
+      'naveinditexmontepino-acciona/22.jpg',
+    ],
   },
   {
     slug: '48viviendasunifamiliares-nuicon',
     imagen: nuiconImg,
     titulo: '48 Viviendas Unifamiliares',
     descripcion: '48 Viviendas Unifamiliares - Nuicon',
-    contenido:
-      'Conjunto de 48 viviendas unifamiliares con cimentación corrida y forjados unidireccionales.',
+    contenido: 'Conjunto de 48 viviendas unifamiliares con cimentación corrida y forjados unidireccionales.',
     anio: 2022,
     cliente: 'Nuicon',
     localizacion: 'Madrid',
-    fotos: ['48viviendasunifamiliares-nuicon/1c899c85-55ec-4916-80c9-bf75f8dafccd.jpg'],
+    fotos: [
+      '48viviendasunifamiliares-nuicon/1.jpg',
+      '48viviendasunifamiliares-nuicon/2.jpg',
+      '48viviendasunifamiliares-nuicon/3.jpg',
+      '48viviendasunifamiliares-nuicon/4.jpg',
+      '48viviendasunifamiliares-nuicon/5.jpg',
+      '48viviendasunifamiliares-nuicon/6.jpg',
+      '48viviendasunifamiliares-nuicon/7.jpg',
+      '48viviendasunifamiliares-nuicon/8.jpg',
+    ],
   },
   {
     slug: '174viviendasbutarque-acciona',
     imagen: butarqueImg,
     titulo: '174 Viviendas Butarque',
     descripcion: '174 Viviendas Butarque - Acciona',
-    contenido:
-      'Promoción de 174 viviendas en el barrio de Butarque (Madrid).',
+    contenido: 'Promoción de 174 viviendas en el barrio de Butarque (Madrid).',
     anio: 2021,
     cliente: 'Acciona',
     localizacion: 'Leganés, Madrid',
-    fotos: ['174viviendasbutarque-acciona/img_3375.jpg'],
+    fotos: [
+      '174viviendasbutarque-acciona/1.jpg',
+      '174viviendasbutarque-acciona/2.jpg',
+      '174viviendasbutarque-acciona/3.jpg',
+      '174viviendasbutarque-acciona/4.jpg',
+    ],
   },
   {
     slug: 'polideportivoalcobendas',
     imagen: alcobendasImg,
     titulo: 'Polideportivo Alcobendas',
     descripcion: 'Polideportivo Alcobendas - Madrid',
-    contenido:
-      'Instalación deportiva en Alcobendas con grandes luces en cubiertas y graderíos de hormigón.',
+    contenido: 'Instalación deportiva en Alcobendas con grandes luces en cubiertas y graderíos de hormigón.',
     anio: 2019,
     cliente: 'Ayuntamiento de Alcobendas',
     localizacion: 'Alcobendas, Madrid',
-    fotos: ['polideportivoalcobendas/300620111612.jpg'],
+    fotos: [
+      'polideportivoalcobendas/1.jpg',
+      'polideportivoalcobendas/2.jpg',
+      'polideportivoalcobendas/3.jpg',
+      'polideportivoalcobendas/4.jpg',
+      'polideportivoalcobendas/5.jpg',
+      'polideportivoalcobendas/6.jpg',
+      'polideportivoalcobendas/7.jpg',
+      'polideportivoalcobendas/8.jpg',
+    ],
   },
 ];
 
