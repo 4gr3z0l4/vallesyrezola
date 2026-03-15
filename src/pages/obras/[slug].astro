@@ -90,6 +90,14 @@ const galeria: ImageMetadata[] =
         }
       </header>
 
+      {
+        obra.contenido && (
+          <article class="mt-10 prose prose-slate max-w-none dark:prose-invert">
+            <p>{obra.contenido}</p>
+          </article>
+        )
+      }
+      
       {/* Galería: si no hay fotos definidas, usamos la principal */}
       <section class="mt-10">
         <div class="grid gap-6 md:grid-cols-2">
@@ -103,13 +111,6 @@ const galeria: ImageMetadata[] =
         </div>
       </section>
 
-      {
-        obra.contenido && (
-          <article class="mt-10 prose prose-slate max-w-none dark:prose-invert">
-            <p>{obra.contenido}</p>
-          </article>
-        )
-      }
     </section>
   </main>
 </Layout>
