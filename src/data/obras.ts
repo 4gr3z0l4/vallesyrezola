@@ -51,8 +51,8 @@ export const obras: Obra[] = [
     descripcion: 'Ampliación de línea 11 de Metro de Madrid',
     contenido:
       'Ejecución de losas, muros y vertidos de hormigón en la ampliación de la línea 11 de Metro de Madrid, estación de Palos de la Frontera.',
-    anio: 2023,
-    cliente: 'Comunidad de Madrid',
+    anio: 2025,
+    cliente: '-',
     localizacion: 'Madrid',
     fotos: [
       'palosdelafrontera/1.jpg',
@@ -78,8 +78,8 @@ export const obras: Obra[] = [
     titulo: 'Hospital General Río Carrión',
     descripcion: 'Hospital General Río Carrión - Palencia - Acciona',
     contenido: 'Ejecución de estructura de hormigón del nuevo hospital Río Carrión, Palencia.',
-    anio: 2022,
-    cliente: 'Junta de Castilla y León',
+    anio: 2024,
+    cliente: '-',
     localizacion: 'Palencia',
     fotos: [
       'hospitalriocarrionpalenciaacciona/1.jpg',
@@ -98,7 +98,7 @@ export const obras: Obra[] = [
     descripcion: 'Edificio de oficinas - Calle Pradillo - Acciona',
     contenido:
       'Edificio de oficinas en la calle Pradillo (Madrid), con losas postesadas y núcleos de hormigón armado para maximizar luces y flexibilidad de uso.',
-    anio: 2021,
+    anio: 2025,
     cliente: 'Acciona',
     localizacion: 'Madrid',
     fotos: [
@@ -130,7 +130,7 @@ export const obras: Obra[] = [
     descripcion: 'Reforma de unidades estructurales de cubierta',
     contenido:
       'Ejecución en horario nocturno de la reforma estructural de la cubierta del Centro Comercial La Vaguada.',
-    anio: 2020,
+    anio: 2024,
     cliente: 'Oria',
     localizacion: 'Madrid',
     fotos: [
@@ -148,8 +148,8 @@ export const obras: Obra[] = [
     descripcion: 'Sede BBVA Las Tablas',
     contenido:
       'Participación en la ejecución de la estructura de hormigón del complejo corporativo de BBVA en Las Tablas (Madrid).',
-    anio: 2019,
-    cliente: 'BBVA',
+    anio: 2015,
+    cliente: '-',
     localizacion: 'Madrid',
     fotos: [
       'nuevasedebbvalastablas/1.jpg',
@@ -200,8 +200,8 @@ export const obras: Obra[] = [
     descripcion: 'Estructura Puerto de Lome - Togo',
     contenido:
       'Ejecución de edificio de control de puerto de Lomé (Togo) con pilares in situ de hasta 18 m. de altura.',
-    anio: 2022,
-    cliente: 'Promotora privada',
+    anio: 2019,
+    cliente: '-',
     localizacion: 'Lomé, Togo',
     fotos: [
       'estructurapuertodelome-togo/1.jpg',
@@ -218,7 +218,7 @@ export const obras: Obra[] = [
     contenido:
       'Rehabilitación estructural y ejecución de nuevas losas de hormigón en singular edificio en la M30 madrileña.',
     anio: 2020,
-    cliente: 'Propietario privado',
+    cliente: '-',
     localizacion: 'Madrid',
     fotos: [
       'rehabilitacionedifloscubosm30/1.jpg',
@@ -246,7 +246,7 @@ export const obras: Obra[] = [
     contenido:
       'Obra realizada para el Banco Santander Central Hispano por un importe total de 780.000€ y consistente en la realización de los muros curvos de los lagos, así como todas las estructuras de servicio anexas a dichos lagos incluyendo medios auxiliares, ferralla y hormigón. Esta obra se realizó con una disminución de 1,5 meses del plazo de ejecución inicialmente estimado por la Dirección de Obra',
     anio: 2018,
-    cliente: 'Banco Santander',
+    cliente: '-',
     localizacion: 'Boadilla del Monte, Madrid',
     fotos: ['ciudadfinancierabancosantanderbsch/1.jpg', 'ciudadfinancierabancosantanderbsch/2.jpg'],
   },
@@ -257,8 +257,8 @@ export const obras: Obra[] = [
     descripcion: 'Aparcamiento Amazon Carbonell y Figueras',
     contenido:
       'Muros de cerramiento y cimentaciones de aparcamiento Amazon en Leganés. Gran despliegue de medios por parte de Carbonell y Figueras para ejecución exitosa de la obra y cumplimiento de plazos.',
-    anio: 2023,
-    cliente: 'Promotora privada',
+    anio: 2019,
+    cliente: '-',
     localizacion: 'Leganés, Madrid',
     fotos: [
       'aparcamientoamazoncarbonellyfigueras/1.webp',
@@ -278,7 +278,7 @@ export const obras: Obra[] = [
     descripcion: 'Viviendas exclusivas Majadahonda',
     contenido:
       'Ejecución de estructura de hormigón y muros vistos de urbanización de 19+24+24 viviendas unifamiliares exclusivas en Los Satélites, Majadahonda.',
-    anio: 2021,
+    anio: 2019,
     cliente: 'Afar4',
     localizacion: 'Majadahonda, Madrid',
     fotos: [
@@ -295,7 +295,7 @@ export const obras: Obra[] = [
     descripcion: '318 viviendas Universidad Carlos III Getafe',
     contenido:
       'Ejecución de edificio de 318 apartamentos residenciales para estudiantes, en universidad Carlos III Getafe.',
-    anio: 2022,
+    anio: 2018,
     cliente: 'Acciona',
     localizacion: 'Getafe, Madrid',
     fotos: [
@@ -313,7 +313,7 @@ export const obras: Obra[] = [
     descripcion: 'Edificio Paseo Castellana 77 - Grupo GMP',
     contenido:
       'Rehabilitación del edificio Paseo de la Castellana 77, en Azca, de 16.200 m2 de oficinas. Grupo GMP. Ejecución del refuerzo de estructura del núcleo central del edificio, de la nueva estructura de hormigón de plantas y nuevas escaleras del mismo, demolición del interior y desmontaje de fachada del edificio. Ejecución de los trabajos de demolición  simultaneando la actividad el Centro Comercial El Corte Ingles de Nuevos Ministerios, situado en la parte inferior de edificio, lo que supuso trabajos nocturnos y en festivos en la ejecución de la obra. Edifico de vanguardia y máxima eficiencia energética, en el corazón financiero de la Capital.',
-    anio: 2020,
+    anio: 2018,
     cliente: 'Grupo GMP',
     localizacion: 'Madrid',
     fotos: [
@@ -330,7 +330,7 @@ export const obras: Obra[] = [
     descripcion: 'Biblioteca Municipal Coslada',
     contenido:
       'Ejecución de la Biblioteca municipal de Coslada para la empresa FCC. Obra de Hormigón visto en losas, todas forradas de fenólico de un solo uso, con replanteo especifico en cada planta. Muros forrados de melamina de un solo uso, con berenjenos verticales cada 45 cm, que guardan linea en forjados y con el recubrimiento de madera definitivo. Muros de urbanización forrados de madera cepillada de ancho fijo, con el nombre de la biblioteca en fenólico, inscrito en el muro.',
-    anio: 2019,
+    anio: 2015,
     cliente: 'FCC',
     localizacion: 'Coslada, Madrid',
     fotos: [
@@ -346,9 +346,9 @@ export const obras: Obra[] = [
     descripcion: 'Campus Iberdrola - Acciona',
     contenido:
       'Espectacular proyecto de Campus Iberdrola, con ejecución de singular estructura de hormigón. Máximas exigencias en calidad, seguridad y plazo, en proyecto actualmente líder de construcción en Europa.',
-    anio: 2021,
+    anio: 2015,
     cliente: 'Acciona',
-    localizacion: 'Valdepeñas, Ciudad Real',
+    localizacion: 'Madrid',
     fotos: [
       'campusiberdrola-acciona/1.jpg',
       'campusiberdrola-acciona/2.jpg',
@@ -365,7 +365,7 @@ export const obras: Obra[] = [
     contenido:
       'Ejecución de 48 viviendas unifamiliares de muros y forjados prefabricados de hormigón. Urbanización muros vistos hormigón in situ.',
     anio: 2021,
-    cliente: 'Promotora privada',
+    cliente: '-',
     localizacion: 'Madrid',
     fotos: [
       '48chaletscrucedelartevallecas/1.webp',
@@ -412,7 +412,7 @@ export const obras: Obra[] = [
     descripcion: 'Biblioteca Municipal Ana María Matute',
     contenido:
       'Realización de la nueva Biblioteca Municipal de Carabanchel para la Constructora Geocisa por un importe total de 642.000€. Este proyecto ganador del Concurso se realiza íntegramente con muros y forjados de hormigón visto. Todos los muros, previo a su hormigonado son revestidos por tablilla cepillada de ancho fijo y una sola puesta, y todos los forjados acabados con tablero fenólico también de una sola puesta.',
-    anio: 2019,
+    anio: 2012,
     cliente: 'Geocisa',
     localizacion: 'Madrid',
     fotos: [
@@ -442,8 +442,8 @@ export const obras: Obra[] = [
     descripcion: '95 Viviendas San José - Calle Almansa',
     contenido:
       'Ejecución de 95 viviendas en el barrio de Cuatro Caminos (Madrid). Ejecución de 4 bloques independientes y separados, bajo la dirección de obra del prestigioso estudio de arquitectura Ortiz y León Arquitectos.',
-    anio: 2021,
-    cliente: 'Promotora privada',
+    anio: 2018,
+    cliente: '-',
     localizacion: 'Madrid',
     fotos: [
       '95viviendassanjose-callealmansa/1.webp',
@@ -462,7 +462,7 @@ export const obras: Obra[] = [
     descripcion: '196 Viviendas Los Molinos - Getafe - Acciona',
     contenido:
       'Ejecución de 31.000 m2 de estructura para la empresa Acciona Infraestructuras, en Los Molinos, Getafe. Ejecución de la estructura en plazo muy ajustado, por necesidad del proyecto, con una media de 3.500 m2 / grúa / mes.',
-    anio: 2023,
+    anio: 2018,
     cliente: 'Acciona',
     localizacion: 'Getafe, Madrid',
     fotos: [
@@ -478,8 +478,8 @@ export const obras: Obra[] = [
     descripcion: 'Desvío Arroyo De Los Majuelos - BSCH',
     contenido:
       'Obra realizada para Sacyr en Boadilla del Monte por un importe total de 260.000€ consistente en el desvío del cauce del Arroyo de los Majuelos, incluyendo numerosas galerías, cámaras de registro de saneamiento, marcos con geometría de sección variable adaptada al terreno existente, etc. Esta obra realizada por Valles y Rezola incluye la aportación por parte de la misma de medios auxiliares, ferralla, hormigón, seguridad etc.',
-    anio: 2018,
-    cliente: 'BSCH',
+    anio: 2017,
+    cliente: 'Sacyr',
     localizacion: 'Madrid',
     fotos: ['desvioarroyodelosmajuelosbsch/1.jpg'],
   },
@@ -490,7 +490,7 @@ export const obras: Obra[] = [
     descripcion: 'Edificio Eigo - Centro Logístico Pinto',
     contenido:
       'Ejecución de muros perimetrales de hormigón in situ ya está 6 m de altura y muro prefabricado perimetral. Ejecución de oficinas de naves, cimentaciones y peines de paneles prefabricados.',
-    anio: 2022,
+    anio: 2019,
     cliente: 'Eigo',
     localizacion: 'Pinto, Madrid',
     fotos: [
@@ -508,7 +508,7 @@ export const obras: Obra[] = [
     titulo: 'Edificio Fundación Francisco Giner de los Ríos',
     descripcion: 'Edificio Fundación Francisco Giner de los Ríos - Madrid',
     contenido: 'Premio COAM 2015 de Arquitectura.',
-    anio: 2020,
+    anio: 2015,
     cliente: 'Acciona',
     localizacion: 'Madrid',
     fotos: ['fundacionfranciscoginerdelosrios/1.jpg'],
@@ -520,9 +520,9 @@ export const obras: Obra[] = [
     descripcion: 'Nave Inditex Montepino - Acciona',
     contenido:
       'Ejecución de 16.000 m2 de muros perimetrales trepados, y de hasta 9,80 m de altura, Cimentación de Nave Logística y Urbanización de complejo, para Grupo Montepino, en Toledo. Ejecución de muros a una cara de hasta 9 metros de altura y 1,80 m de espesor, de una sola puesta.',
-    anio: 2023,
+    anio: 2018,
     cliente: 'Acciona',
-    localizacion: 'Montepino, Madrid',
+    localizacion: 'Toledo',
     fotos: [
       'naveinditexmontepino-acciona/1.jpg',
       'naveinditexmontepino-acciona/2.jpg',
@@ -555,7 +555,7 @@ export const obras: Obra[] = [
     descripcion: '48 Viviendas Unifamiliares - Nuicon',
     contenido:
       'Ejecución de otras 48 viviendas unifamiliares con garaje comunitario en Ensanche de Vallecas. Muros y losas prefabricados por Rubiera, que permiten acortar plazos cumpliendo todas las especificaciones técnicas.',
-    anio: 2022,
+    anio: 2021,
     cliente: 'Nuicon',
     localizacion: 'Madrid',
     fotos: [
@@ -575,9 +575,9 @@ export const obras: Obra[] = [
     titulo: '174 Viviendas Butarque',
     descripcion: '174 Viviendas Butarque - Acciona',
     contenido: 'Promoción de 174 viviendas en el barrio de Butarque (Madrid).',
-    anio: 2021,
+    anio: 2019,
     cliente: 'Acciona',
-    localizacion: 'Leganés, Madrid',
+    localizacion: 'Madrid',
     fotos: [
       '174viviendasbutarque-acciona/1.jpg',
       '174viviendasbutarque-acciona/2.jpg',
@@ -592,8 +592,8 @@ export const obras: Obra[] = [
     descripcion: 'Polideportivo Alcobendas - Madrid',
     contenido:
       'Ejecución de nuevo polideportivo Alcobendas. Torre de hormigón trepada y muros interiores de hormigón tratado.',
-    anio: 2019,
-    cliente: 'Ayuntamiento de Alcobendas',
+    anio: 2017,
+    cliente: '-',
     localizacion: 'Alcobendas, Madrid',
     fotos: [
       'polideportivoalcobendas/1.jpg',
