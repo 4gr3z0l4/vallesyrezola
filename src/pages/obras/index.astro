@@ -1,179 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
-// Importar todas las imágenes de cada carpeta
-import palosImg from '~/assets/images/obras/palosdelafrontera/putj5438.jpg';
-import rioCarrionImg from '~/assets/images/obras/hospitalriocarrionpalenciaacciona/dji_fly_plantasegunda.webp';
-import pradilloImg from '~/assets/images/obras/oficinascallepradillo/oficinas-pradillo-1.jpg';
-import vaguadaImg from '~/assets/images/obras/centrocomerciallavaguada/026e4-5c15444e-d0f2-46e9-929d-a055a5e02f27-1.webp';
-import bbvaImg from '~/assets/images/obras/nuevasedebbvalastablas/img_2593.jpg';
-import atochaImg from '~/assets/images/obras/edificiobosquedeatocha/img_8783.jpg';
-import togoImg from '~/assets/images/obras/estructurapuertodelome-togo/img_2762.jpg';
-import cubosImg from '~/assets/images/obras/rehabilitacionedifloscubosm30/ir7y2zbrrjwfrb7shipeba.jpg';
-import santanderImg from '~/assets/images/obras/ciudadfinancierabancosantanderbsch/lagos-con-muro-curvo-en-ciudad-financiera-bsch-023.jpg';
-import aparcamientoImg from '~/assets/images/obras/aparcamientoamazoncarbonellyfigueras/2580737a012bc765119a754165bc895b.webp';
-import majadahondaImg from '~/assets/images/obras/viviendasexclusivasmajadahondaafar4/gizrgxk0tbeo2xtwqjeu0w.webp';
-import getafeImg from '~/assets/images/obras/318viviendasuniversidadcarlosiiigetafe-acciona/img_1149.jpg';
-import castellanaImg from '~/assets/images/obras/edificiopaseocastellana77-grupogmp/img_6132.jpg';
-import cosladaImg from '~/assets/images/obras/bibliotecamunicipalcoslada-fcc/img_3326.jpg';
-import iberdrolaImg from '~/assets/images/obras/campusiberdrola-acciona/img_9510.jpg';
-import vallecasImg from '~/assets/images/obras/48chaletscrucedelartevallecas/remotemediafile_6553783_0_2021_05_06_09_39_58.webp';
-import sanchinarroImg from '~/assets/images/obras/123viviendassanchinarro/img_8830.jpg';
-import matuteImg from '~/assets/images/obras/bibliotecamunicipalanamariamatute/img_3345.jpg';
-import humanesImg from '~/assets/images/obras/60viviendashumanesalza/img_7641.jpg';
-import almansaImg from '~/assets/images/obras/95viviendassanjose-callealmansa/img_5596.webp';
-import molinosImg from '~/assets/images/obras/196viviendaslosmolinosgetafe-acciona/196-viv-los-molinos-004-11810-terminado-5-planta-baja-ty-8-planta-sotano-y-no-entran-hasta-dias-despues.jpg';
-import majuelosImg from '~/assets/images/obras/desvíoarroyodelosmajuelosbsch/desvc3ado-del-arroyo-de-los-majuelos6.jpg';
-import eigoImg from '~/assets/images/obras/eigo-centrologisticopinto/img_8038.webp';
-import ginerImg from '~/assets/images/obras/fundacionfranciscoginerdelosrios/133.jpg';
-import inditexImg from '~/assets/images/obras/naveinditexmontepino-acciona/khy7cexaroeatkivxab6ow.webp';
-import nuiconImg from '~/assets/images/obras/48viviendasunifamiliares-nuicon/1c899c85-55ec-4916-80c9-bf75f8dafccd.jpg';
-import butarqueImg from '~/assets/images/obras/174viviendasbutarque-acciona/img_3375.jpg';
-import alcobendasImg from '~/assets/images/obras/polideportivoalcobendas/300620111612.jpg';
-
-// Datos de las obras con sus imágenes importadas
-const obras = [
-  {
-    imagen: palosImg,
-    titulo: 'Línea 11 de metro - Palos de la Frontera',
-    descripcion: 'Ampliación de línea 11 de Metro de Madrid'
-  },
-  {
-    imagen: rioCarrionImg,
-    titulo: 'Hospital General Río Carrión',
-    descripcion: 'Hospital General Río Carrión - Palencia - Acciona'
-  },
-  {
-    imagen: pradilloImg,
-    titulo: 'Edificio de oficinas',
-    descripcion: 'Edificio de oficinas - Calle Pradillo - Acciona'
-  },
-  {
-    imagen: vaguadaImg,
-    titulo: 'Centro Comercial La Vaguada',
-    descripcion: 'Reforma de unidades estructurales de cubierta'
-  },
-  {
-    imagen: bbvaImg,
-    titulo: 'Sede BBVA',
-    descripcion: 'Sede BBVA Las Tablas'
-  },
-  {
-    imagen: atochaImg,
-    titulo: 'Edificio residencial - Atocha',
-    descripcion: 'Edificio Bosque de Atocha'
-  },
-  {
-    imagen: togoImg,
-    titulo: 'Estructura en Lome - Togo',
-    descripcion: 'Estructura Puerto de Lome - Togo'
-  },
-  {
-    imagen: cubosImg,
-    titulo: 'Rehabilitación Edificio Los Cubos',
-    descripcion: 'Rehabilitación Edificio Los Cubos - M30'
-  },
-  {
-    imagen: santanderImg,
-    titulo: 'Ciudad Financiera Banco Santander',
-    descripcion: 'Lago con muro curvo'
-  },
-  {
-    imagen: aparcamientoImg,
-    titulo: 'Aparcamiento Carbonell y Figueras',
-    descripcion: 'Aparcamiento Amazon Carbonell y Figueras'
-  },
-  {
-    imagen: majadahondaImg,
-    titulo: 'Viviendas exclusivas',
-    descripcion: 'Viviendas exclusivas Majadahonda'
-  },
-  {
-    imagen: getafeImg,
-    titulo: '318 viviendas - Getafe',
-    descripcion: '318 viviendas Universidad Carlos III Getafe'
-  },
-  {
-    imagen: castellanaImg,
-    titulo: 'Edificio Paseo Castellana 77',
-    descripcion: 'Edificio Paseo Castellana 77 - Grupo GMP'
-  },
-  {
-    imagen: cosladaImg,
-    titulo: 'Biblioteca Municipal',
-    descripcion: 'Biblioteca Municipal Coslada'
-  },
-  {
-    imagen: iberdrolaImg,
-    titulo: 'Campus Iberdrola',
-    descripcion: 'Campus Iberdrola - Acciona'
-  },
-  {
-    imagen: vallecasImg,
-    titulo: '48 Chalets Vallecas',
-    descripcion: '48 Chalets Cruce Del Arte Vallecas'
-  },
-  {
-    imagen: sanchinarroImg,
-    titulo: '123 Viviendas - Madrid',
-    descripcion: '123 Viviendas - Sanchinarro (Madrid)'
-  },
-  {
-    imagen: matuteImg,
-    titulo: 'Biblioteca Municipal',
-    descripcion: 'Biblioteca Municipal Ana María Matute'
-  },
-  {
-    imagen: humanesImg,
-    titulo: '60 Viviendas Humanes',
-    descripcion: '60 Viviendas Humanes Alza'
-  },
-  {
-    imagen: almansaImg,
-    titulo: '95 Viviendas San José',
-    descripcion: '95 Viviendas San José - Calle Almansa'
-  },
-  {
-    imagen: molinosImg,
-    titulo: '196 Viviendas Los Molinos - Getafe',
-    descripcion: '196 Viviendas Los Molinos - Getafe - Acciona'
-  },
-  {
-    imagen: majuelosImg,
-    titulo: 'Desvío Arroyo De Los Majuelos',
-    descripcion: 'Desvío Arroyo De Los Majuelos - BSCH'
-  },
-  {
-    imagen: eigoImg,
-    titulo: 'Edificio EIGO',
-    descripcion: 'Edificio EIGO - Centro Logístico Pinto'
-  },
-  {
-    imagen: ginerImg,
-    titulo: 'Edificio Fundación Francisco Giner de los Ríos',
-    descripcion: 'Edificio Fundación Francisco Giner de los Ríos - Madrid'
-  },
-  {
-    imagen: inditexImg,
-    titulo: 'Nave Inditex Montepino',
-    descripcion: 'Nave Inditex Montepino - Acciona'
-  },
-  {
-    imagen: nuiconImg,
-    titulo: '48 Viviendas Unifamiliares',
-    descripcion: '48 Viviendas Unifamiliares - Nuicon'
-  },
-  {
-    imagen: butarqueImg,
-    titulo: '174 Viviendas Butarque',
-    descripcion: '174 Viviendas Butarque - Acciona'
-  },
-  {
-    imagen: alcobendasImg,
-    titulo: 'Polideportivo Alcobendas',
-    descripcion: 'Polideportivo Alcobendas - Madrid'
-  }
-];
+import { obras } from '~/data/obras';
 ---
 
 <Layout>
@@ -187,23 +14,26 @@ const obras = [
       </p>
     </section>
 
-    <!-- Grid de obras -->
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {obras.map((obra, index) => (
-          <article class="group">
-            <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
-              <img
-                src={obra.imagen.src}
-                alt={obra.titulo}
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                loading={index < 6 ? "eager" : "lazy"}
-              />
-            </div>
-            <h3 class="mt-4 font-bold text-xl">{obra.titulo}</h3>
-            <p class="text-slate-600 mt-1">{obra.descripcion}</p>
-          </article>
-        ))}
+        {
+          obras.map((obra, index) => (
+            <article class="group">
+              <a href={`/obras/${obra.slug}`}>
+                <div class="aspect-video overflow-hidden rounded-xl bg-slate-100">
+                  <img
+                    src={obra.imagen.src}
+                    alt={obra.titulo}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                    loading={index < 6 ? 'eager' : 'lazy'}
+                  />
+                </div>
+                <h3 class="mt-4 font-bold text-xl">{obra.titulo}</h3>
+                <p class="text-slate-600 mt-1">{obra.descripcion}</p>
+              </a>
+            </article>
+          ))
+        }
       </div>
     </section>
   </div>
