@@ -16,21 +16,21 @@ El objetivo ha sido crear una presencia online clara, rápida y profesional para
 
 ## 🛠️ Tecnologías utilizadas
 
-* Astro
-* HTML / CSS / JavaScript
-* Tailwind
-* Componentes reutilizables
-* Despliegue en entorno productivo
+- Astro
+- HTML / CSS / JavaScript
+- Tailwind
+- Componentes reutilizables
+- Despliegue en entorno productivo
 
 ---
 
 ## 🚀 Qué he aportado en este proyecto
 
-* Adaptación completa de la plantilla a un caso real
-* Personalización de contenidos, estructura y diseño
-* Organización del proyecto y componentes
-* Optimización de rendimiento y carga
-* Publicación en entorno productivo
+- Adaptación completa de la plantilla a un caso real
+- Personalización de contenidos, estructura y diseño
+- Organización del proyecto y componentes
+- Optimización de rendimiento y carga
+- Publicación en entorno productivo
 
 ---
 
