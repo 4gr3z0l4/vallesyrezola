@@ -63,15 +63,8 @@ const galeria: ImageMetadata[] =
         </p>
 
         {
-          (obra.anio || obra.cliente || obra.localizacion) && (
+          (obra.cliente || obra.localizacion) && (
             <dl class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-slate-600 dark:text-slate-300">
-              {obra.anio && (
-                <div class="rounded-xl border border-slate-200 dark:border-slate-700 px-4 py-3">
-                  <dt class="font-medium text-slate-500 dark:text-slate-400">Año</dt>
-                  <dd class="mt-1 text-base">{obra.anio}</dd>
-                </div>
-              )}
-
               {obra.cliente && (
                 <div class="rounded-xl border border-slate-200 dark:border-slate-700 px-4 py-3">
                   <dt class="font-medium text-slate-500 dark:text-slate-400">Cliente</dt>
