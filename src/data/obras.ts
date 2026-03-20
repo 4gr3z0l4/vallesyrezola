@@ -52,7 +52,7 @@ export const obras: Obra[] = [
     contenido:
       'Ejecución de losas, muros y vertidos de hormigón en la ampliación de la línea 11 de Metro de Madrid, estación de Palos de la Frontera.',
     anio: 2025,
-    cliente: '-',
+    cliente: 'UTE Acciona - Dragados',
     localizacion: 'Madrid',
     fotos: [
       'palosdelafrontera/1.jpg',
@@ -79,7 +79,7 @@ export const obras: Obra[] = [
     descripcion: 'Hospital General Río Carrión - Palencia - Acciona',
     contenido: 'Ejecución de estructura de hormigón del nuevo hospital Río Carrión, Palencia.',
     anio: 2024,
-    cliente: '-',
+    cliente: 'Acciona',
     localizacion: 'Palencia',
     fotos: [
       'hospitalriocarrionpalenciaacciona/1.jpg',
@@ -149,7 +149,7 @@ export const obras: Obra[] = [
     contenido:
       'Participación en la ejecución de la estructura de hormigón del complejo corporativo de BBVA en Las Tablas (Madrid).',
     anio: 2015,
-    cliente: '-',
+    cliente: 'Acciona',
     localizacion: 'Madrid',
     fotos: [
       'nuevasedebbvalastablas/1.jpg',
@@ -201,7 +201,7 @@ export const obras: Obra[] = [
     contenido:
       'Ejecución de edificio de control de puerto de Lomé (Togo) con pilares in situ de hasta 18 m. de altura.',
     anio: 2019,
-    cliente: '-',
+    cliente: 'Hill International',
     localizacion: 'Lomé, Togo',
     fotos: [
       'estructurapuertodelome-togo/1.jpg',
@@ -218,7 +218,7 @@ export const obras: Obra[] = [
     contenido:
       'Rehabilitación estructural y ejecución de nuevas losas de hormigón en singular edificio en la M30 madrileña.',
     anio: 2020,
-    cliente: '-',
+    cliente: 'Acciona',
     localizacion: 'Madrid',
     fotos: [
       'rehabilitacionedifloscubosm30/1.jpg',
@@ -246,7 +246,7 @@ export const obras: Obra[] = [
     contenido:
       'Obra realizada para el Banco Santander Central Hispano por un importe total de 780.000€ y consistente en la realización de los muros curvos de los lagos, así como todas las estructuras de servicio anexas a dichos lagos incluyendo medios auxiliares, ferralla y hormigón. Esta obra se realizó con una disminución de 1,5 meses del plazo de ejecución inicialmente estimado por la Dirección de Obra',
     anio: 2018,
-    cliente: '-',
+    cliente: ' UTE Ciudad financiera',
     localizacion: 'Boadilla del Monte, Madrid',
     fotos: ['ciudadfinancierabancosantanderbsch/1.jpg', 'ciudadfinancierabancosantanderbsch/2.jpg'],
   },
@@ -258,7 +258,7 @@ export const obras: Obra[] = [
     contenido:
       'Muros de cerramiento y cimentaciones de aparcamiento Amazon en Leganés. Gran despliegue de medios por parte de Carbonell y Figueras para ejecución exitosa de la obra y cumplimiento de plazos.',
     anio: 2019,
-    cliente: '-',
+    cliente: 'Carbonrell y Figueras',
     localizacion: 'Leganés, Madrid',
     fotos: [
       'aparcamientoamazoncarbonellyfigueras/1.webp',
@@ -314,7 +314,7 @@ export const obras: Obra[] = [
     contenido:
       'Rehabilitación del edificio Paseo de la Castellana 77, en Azca, de 16.200 m2 de oficinas. Grupo GMP. Ejecución del refuerzo de estructura del núcleo central del edificio, de la nueva estructura de hormigón de plantas y nuevas escaleras del mismo, demolición del interior y desmontaje de fachada del edificio. Ejecución de los trabajos de demolición  simultaneando la actividad el Centro Comercial El Corte Ingles de Nuevos Ministerios, situado en la parte inferior de edificio, lo que supuso trabajos nocturnos y en festivos en la ejecución de la obra. Edifico de vanguardia y máxima eficiencia energética, en el corazón financiero de la Capital.',
     anio: 2018,
-    cliente: 'Grupo GMP',
+    cliente: 'Acciona',
     localizacion: 'Madrid',
     fotos: [
       'edificiopaseocastellana77-grupogmp/1.jpg',
@@ -365,7 +365,7 @@ export const obras: Obra[] = [
     contenido:
       'Ejecución de 48 viviendas unifamiliares de muros y forjados prefabricados de hormigón. Urbanización muros vistos hormigón in situ.',
     anio: 2021,
-    cliente: '-',
+    cliente: 'Aliaria',
     localizacion: 'Madrid',
     fotos: [
       '48chaletscrucedelartevallecas/1.webp',
@@ -389,7 +389,7 @@ export const obras: Obra[] = [
     descripcion: '123 Viviendas - Sanchinarro (Madrid)',
     contenido: 'Espectacular proyecto de Touza Arquitectos, en una de las mejores zonas residenciales de Madrid.',
     anio: 2020,
-    cliente: 'Touza Arquitectos',
+    cliente: 'Aliaria',
     localizacion: 'Sanchinarro, Madrid',
     fotos: [
       '123viviendassanchinarro/1.jpg',
@@ -443,7 +443,7 @@ export const obras: Obra[] = [
     contenido:
       'Ejecución de 95 viviendas en el barrio de Cuatro Caminos (Madrid). Ejecución de 4 bloques independientes y separados, bajo la dirección de obra del prestigioso estudio de arquitectura Ortiz y León Arquitectos.',
     anio: 2018,
-    cliente: '-',
+    cliente: 'San José Contructora',
     localizacion: 'Madrid',
     fotos: [
       '95viviendassanjose-callealmansa/1.webp',
@@ -593,7 +593,7 @@ export const obras: Obra[] = [
     contenido:
       'Ejecución de nuevo polideportivo Alcobendas. Torre de hormigón trepada y muros interiores de hormigón tratado.',
     anio: 2017,
-    cliente: '-',
+    cliente: 'Ayuntamiento de Alcobendas',
     localizacion: 'Alcobendas, Madrid',
     fotos: [
       'polideportivoalcobendas/1.jpg',
