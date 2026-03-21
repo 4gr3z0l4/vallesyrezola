@@ -2,12 +2,12 @@
 import type { ImageMetadata } from 'astro';
 
 // Importar TODAS las imágenes principales (una por obra)
+import bbvaImg from '~/assets/images/obras/nuevasedebbvalastablas/1.jpg';
 import palosImg from '~/assets/images/obras/palosdelafrontera/1.jpg';
 import rioCarrionImg from '~/assets/images/obras/hospitalriocarrionpalenciaacciona/1.jpg';
 import azcaImg from '~/assets/images/obras/oficinasazca/1.jpg';
 import pradilloImg from '~/assets/images/obras/oficinascallepradillo/1.jpg';
 import vaguadaImg from '~/assets/images/obras/centrocomerciallavaguada/1.webp';
-import bbvaImg from '~/assets/images/obras/nuevasedebbvalastablas/1.jpg';
 import atochaImg from '~/assets/images/obras/edificiobosquedeatocha/1.jpg';
 import togoImg from '~/assets/images/obras/estructurapuertodelome-togo/1.jpg';
 import cubosImg from '~/assets/images/obras/rehabilitacionedifloscubosm30/1.jpg';
@@ -45,6 +45,32 @@ export type Obra = {
 };
 
 export const obras: Obra[] = [
+  {
+    slug: 'nuevasedebbvalastablas',
+    imagen: bbvaImg,
+    titulo: 'Sede BBVA',
+    descripcion: 'Sede BBVA Las Tablas',
+    contenido:
+      'Participación en la ejecución de la estructura de hormigón del complejo corporativo de BBVA en Las Tablas (Madrid).',
+    anio: 2015,
+    cliente: 'Acciona',
+    localizacion: 'Madrid',
+    fotos: [
+      'nuevasedebbvalastablas/1.jpg',
+      'nuevasedebbvalastablas/2.jpg',
+      'nuevasedebbvalastablas/3.jpg',
+      'nuevasedebbvalastablas/4.jpg',
+      'nuevasedebbvalastablas/5.jpg',
+      'nuevasedebbvalastablas/6.jpg',
+      'nuevasedebbvalastablas/7.jpg',
+      'nuevasedebbvalastablas/8.jpg',
+      'nuevasedebbvalastablas/9.jpg',
+      'nuevasedebbvalastablas/10.jpg',
+      'nuevasedebbvalastablas/11.jpg',
+      'nuevasedebbvalastablas/12.jpg',
+      'nuevasedebbvalastablas/13.jpg',
+    ],
+  },
   {
     slug: 'palosdelafrontera',
     imagen: palosImg,
@@ -153,32 +179,6 @@ export const obras: Obra[] = [
       'centrocomerciallavaguada/3.webp',
       'centrocomerciallavaguada/4.webp',
       'centrocomerciallavaguada/5.webp',
-    ],
-  },
-  {
-    slug: 'nuevasedebbvalastablas',
-    imagen: bbvaImg,
-    titulo: 'Sede BBVA',
-    descripcion: 'Sede BBVA Las Tablas',
-    contenido:
-      'Participación en la ejecución de la estructura de hormigón del complejo corporativo de BBVA en Las Tablas (Madrid).',
-    anio: 2015,
-    cliente: 'Acciona',
-    localizacion: 'Madrid',
-    fotos: [
-      'nuevasedebbvalastablas/1.jpg',
-      'nuevasedebbvalastablas/2.jpg',
-      'nuevasedebbvalastablas/3.jpg',
-      'nuevasedebbvalastablas/4.jpg',
-      'nuevasedebbvalastablas/5.jpg',
-      'nuevasedebbvalastablas/6.jpg',
-      'nuevasedebbvalastablas/7.jpg',
-      'nuevasedebbvalastablas/8.jpg',
-      'nuevasedebbvalastablas/9.jpg',
-      'nuevasedebbvalastablas/10.jpg',
-      'nuevasedebbvalastablas/11.jpg',
-      'nuevasedebbvalastablas/12.jpg',
-      'nuevasedebbvalastablas/13.jpg',
     ],
   },
   {
