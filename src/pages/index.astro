@@ -11,7 +11,7 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Valles y Rezola — Estructuras de hormigón ',
-  ignoreTitleTemplate: true
+  ignoreTitleTemplate: true,
 };
 ---
 
@@ -19,154 +19,148 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Ver obras',
-      href: '/obras',
-      icon: 'tabler:building-skyscraper',
-    },
-    {
-      text: 'Seguir leyendo',
-      href: '#servicios',
-      icon: 'tabler:arrow-down',
-    },
-  ]}
-  image={{ src: '~/assets/images/edificio-atocha.png', alt: 'Estructura de hormigón en ejecución', width: 1536, height: 563}}
->
-  <Fragment slot="title">
-    <span class="block sm:inline text-2xl sm:text-3xl md:text-4xl font-semibold">
-      Valles y Rezola
-    </span>
-  </Fragment>
-  <Fragment slot="subtitle">
-    Estructuras de hormigón
-  </Fragment>
-</Hero>
-
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Ver obras',
+        href: '/obras',
+        icon: 'tabler:building-skyscraper',
+      },
+      {
+        text: 'Seguir leyendo',
+        href: '#servicios',
+        icon: 'tabler:arrow-down',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/edificio-atocha.png',
+      alt: 'Estructura de hormigón en ejecución',
+      width: 1536,
+      height: 563,
+    }}
+  >
+    <Fragment slot="title">
+      <span class="block sm:inline text-2xl sm:text-3xl md:text-4xl font-semibold"> Valles y Rezola </span>
+    </Fragment>
+    <Fragment slot="subtitle"> Estructuras de hormigón </Fragment>
+  </Hero>
 
   <!-- Note Widget ******************* -->
-<section class="-mt-4 md:-mt-6">
-  <Note title="Filosofía:" description="Simplicidad, buenas prácticas y alto rendimiento" />
-</section>
+  <section class="-mt-4 md:-mt-6">
+    <Note title="Filosofía:" description="Simplicidad, buenas prácticas y alto rendimiento" />
+  </section>
 
   <!-- Features Widget *************** -->
 
-<Features
-  id="servicios"
-  tagline="Servicios"
-  title="Especialistas en estructuras de hormigón"
-  subtitle="Acompañamos a constructoras, estudios de arquitectura y promotoras en todo el proceso estructural de la obra."
-  items={[
-    {
-      title: 'Cimentaciones y losas',
-      description: 'Ejecución de zapatas, losas y muros de contención adaptados al estudio geotécnico.',
-      icon: 'tabler:building-bridge',
-    },
-    {
-      title: 'Forjados y estructuras en altura',
-      description: 'Forjados unidireccionales, reticulares y losas macizas para vivienda, industrial y terciario.',
-      icon: 'tabler:building-skyscraper',
-    },
-    {
-      title: 'Muros y estructuras especiales',
-      description: 'Muros pantalla, depósitos, estructuras singulares y soluciones a medida.',
-      icon: 'tabler:tools',
-    },
-    {
-      title: 'Abiertos a nuevas ideas y contribuciones',
-      description:
-          'Impulsamos la innovación en la construcción mediante la escucha activa, integrando soluciones, técnicas avanzadas y procesos colaborativos que optimizan cada proyecto.',
-      icon: 'tabler:bulb',
+  <Features
+    id="servicios"
+    tagline="Servicios"
+    title="Especialistas en estructuras de hormigón"
+    subtitle="Acompañamos a constructoras, estudios de arquitectura y promotoras en todo el proceso estructural de la obra."
+    items={[
+      {
+        title: 'Cimentaciones y losas',
+        description: 'Ejecución de zapatas, losas y muros de contención adaptados al estudio geotécnico.',
+        icon: 'tabler:building-bridge',
       },
-  ]}
-/>
+      {
+        title: 'Forjados y estructuras en altura',
+        description: 'Forjados unidireccionales, reticulares y losas macizas para vivienda, industrial y terciario.',
+        icon: 'tabler:building-skyscraper',
+      },
+      {
+        title: 'Muros y estructuras especiales',
+        description: 'Muros pantalla, depósitos, estructuras singulares y soluciones a medida.',
+        icon: 'tabler:tools',
+      },
+      {
+        title: 'Abiertos a nuevas ideas y contribuciones',
+        description:
+          'Impulsamos la innovación en la construcción mediante la escucha activa, integrando soluciones, técnicas avanzadas y procesos colaborativos que optimizan cada proyecto.',
+        icon: 'tabler:bulb',
+      },
+    ]}
+  />
 
   <!-- Features2: Beneficios / Por qué elegirnos -->
-<Features2
-  title="Por qué Valles y Rezola"
-  subtitle="Especialistas en estructuras de hormigón armado"
-  items={[
-    {
-      title: 'Fiabilidad en plazos',
-      description: 'Ejecutamos la estructura para que el resto de la obra no se retrase.',
-      icon: 'tabler:calendar-check',
-    },
-    {
-      title: 'Seguridad máxima',
-      description: 'Protocolos rigurosos en todas las fases del hormigonado.',
-      icon: 'tabler:shield-check',
-    },
-    {
-      title: 'Experiencia técnica',
-      description: 'Equipo con años de experiencia en obra civil y edificación.',
-      icon: 'tabler:tools',  // ✅ correcto
-    },
-  ]}
-/>
+  <Features2
+    title="Por qué Valles y Rezola"
+    subtitle="Especialistas en estructuras de hormigón armado"
+    items={[
+      {
+        title: 'Fiabilidad en plazos',
+        description: 'Ejecutamos la estructura para que el resto de la obra no se retrase.',
+        icon: 'tabler:calendar-check',
+      },
+      {
+        title: 'Seguridad máxima',
+        description: 'Protocolos rigurosos en todas las fases del hormigonado.',
+        icon: 'tabler:shield-check',
+      },
+      {
+        title: 'Experiencia técnica',
+        description: 'Equipo con años de experiencia en obra civil y edificación.',
+        icon: 'tabler:tools', // ✅ correcto
+      },
+    ]}
+  />
 
+  <!-- Steps: Proceso de trabajo -->
+  <Steps
+    title="Nuestro proceso de trabajo"
+    subtitle="Desde el replanteo hasta la entrega"
+    items={[
+      {
+        title: 'Análisis del proyecto',
+        description: 'Estudio del proyecto estructural y condiciones del terreno.',
+        icon: 'tabler:file-text',
+      },
+      {
+        title: 'Planificación',
+        description: 'Cronograma detallado y coordinación con otros oficios.',
+        icon: 'tabler:calendar-time',
+      },
+      {
+        title: 'Ejecución',
+        description: 'Suministro de encofrado cumpliendo norma UNE 180201 de 2016.',
+        icon: 'tabler:hammer', // ✅ correcto
+      },
+      {
+        title: 'Entrega',
+        description: 'Control final y entrega.',
+        icon: 'tabler:check',
+      },
+    ]}
+  />
 
-<!-- Steps: Proceso de trabajo -->
-<Steps
-  title="Nuestro proceso de trabajo"
-  subtitle="Desde el replanteo hasta la entrega"
-  items={[
-    {
-      title: 'Análisis del proyecto',
-      description: 'Estudio del proyecto estructural y condiciones del terreno.',
-      icon: 'tabler:file-text',
-    },
-    {
-      title: 'Planificación',
-      description: 'Cronograma detallado y coordinación con otros oficios.',
-      icon: 'tabler:calendar-time',
-    },
-    {
-      title: 'Ejecución',
-      description: 'Suministro de encofrado cumpliendo norma UNE 180201 de 2016.',
-      icon: 'tabler:hammer',  // ✅ correcto
-    },
-    {
-      title: 'Entrega',
-      description: 'Control final y entrega.',
-      icon: 'tabler:check',
-    },
-  ]}
-/>
+  <!-- Stats: Cifras clave -->
 
-
-<!-- Stats: Cifras clave -->
-
-<Stats
-  stats={[
-    { title: 'Años de experiencia', amount: '20+' },
-    { title: 'Obras ejecutadas', amount: '350+' },
-    { title: 'm² de estructura de hormigón', amount: '3 mill.+', },
-    { title: 'Cumplimiento de plazos', amount: '100%' },
-  ]}
-/>
-
+  <Stats
+    stats={[
+      { title: 'Años de experiencia', amount: '20+' },
+      { title: 'Obras ejecutadas', amount: '350+' },
+      { title: 'm² de estructura de hormigón', amount: '3 mill.+' },
+      { title: 'Cumplimiento de plazos', amount: '100%' },
+    ]}
+  />
 
   <!-- CallToAction Widget *********** -->
 
-<CallToAction
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Contacto',
-      href: '/contacto',
-      icon: 'tabler:address-book',  // ✅ (contacto)
-    },
-  ]}
->
-  <Fragment slot="title">
-    ¿Planificando una nueva obra?
-  </Fragment>
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Contacto',
+        href: '/contacto',
+        icon: 'tabler:address-book', // ✅ (contacto)
+      },
+    ]}
+  >
+    <Fragment slot="title"> ¿Planificando una nueva obra? </Fragment>
 
-  <Fragment slot="subtitle">
-    Cuéntanos las necesidades de estructura de tu proyecto y te ayudamos a planificar plazos, cuantías y soluciones de hormigón.
-  </Fragment>
-</CallToAction>
-
-
+    <Fragment slot="subtitle">
+      Cuéntanos las necesidades de estructura de tu proyecto y te ayudamos a planificar plazos, cuantías y soluciones de
+      hormigón.
+    </Fragment>
+  </CallToAction>
 </Layout>
