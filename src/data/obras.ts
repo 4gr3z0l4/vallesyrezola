@@ -50,8 +50,7 @@ export const obras: Obra[] = [
     imagen: bbvaImg,
     titulo: 'Sede BBVA',
     descripcion: 'Sede BBVA Las Tablas',
-    contenido:
-      'Ejecución de estructura del complejo corporativo de BBVA en Las Tablas (Madrid).',
+    contenido: 'Ejecución de estructura del complejo corporativo de BBVA en Las Tablas (Madrid).',
     anio: 2015,
     cliente: 'Acciona',
     localizacion: 'Madrid',
@@ -123,8 +122,7 @@ export const obras: Obra[] = [
     imagen: azcaImg,
     titulo: 'Edificio de oficinas',
     descripcion: 'Edificio de oficinas - AZCA - Acciona',
-    contenido:
-      'Edificio de oficinas en el distrito financiero y de negocios AZCA (Madrid).',
+    contenido: 'Edificio de oficinas en el distrito financiero y de negocios AZCA (Madrid).',
     anio: 2025,
     cliente: 'Acciona',
     localizacion: 'Madrid',
@@ -159,9 +157,7 @@ export const obras: Obra[] = [
     anio: 2025,
     cliente: 'Acciona',
     localizacion: 'Madrid',
-    fotos: [
-      'oficinascallepradillo/1.jpg',
-    ],
+    fotos: ['oficinascallepradillo/1.jpg'],
   },
   {
     slug: 'centrocomerciallavaguada',
