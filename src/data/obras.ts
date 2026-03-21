@@ -4,6 +4,7 @@ import type { ImageMetadata } from 'astro';
 // Importar TODAS las imágenes principales (una por obra)
 import palosImg from '~/assets/images/obras/palosdelafrontera/1.jpg';
 import rioCarrionImg from '~/assets/images/obras/hospitalriocarrionpalenciaacciona/1.jpg';
+import azcaImg from '~/assets/images/obras/oficinasazca/1.jpg';
 import pradilloImg from '~/assets/images/obras/oficinascallepradillo/1.jpg';
 import vaguadaImg from '~/assets/images/obras/centrocomerciallavaguada/1.webp';
 import bbvaImg from '~/assets/images/obras/nuevasedebbvalastablas/1.jpg';
@@ -92,6 +93,37 @@ export const obras: Obra[] = [
     ],
   },
   {
+    slug: 'oficinasazca',
+    imagen: azcaImg,
+    titulo: 'Edificio de oficinas',
+    descripcion: 'Edificio de oficinas - AZCA - Acciona',
+    contenido:
+      'Edificio de oficinas en el distrito financiero y de negocios AZCA (Madrid).',
+    anio: 2025,
+    cliente: 'Acciona',
+    localizacion: 'Madrid',
+    fotos: [
+      'oficinasazca/1.jpg',
+      'oficinasazca/2.jpg',
+      'oficinasazca/3.jpg',
+      'oficinasazca/4.jpg',
+      'oficinasazca/5.jpg',
+      'oficinasazca/6.jpg',
+      'oficinasazca/7.jpg',
+      'oficinasazca/8.jpg',
+      'oficinasazca/9.jpg',
+      'oficinasazca/10.jpg',
+      'oficinasazca/11.jpg',
+      'oficinasazca/12.jpg',
+      'oficinasazca/13.jpg',
+      'oficinasazca/14.jpg',
+      'oficinasazca/15.jpg',
+      'oficinasazca/16.jpg',
+      'oficinasazca/17.jpg',
+      'oficinasazca/18.jpg',
+    ],
+  },
+  {
     slug: 'oficinascallepradillo',
     imagen: pradilloImg,
     titulo: 'Edificio de oficinas',
@@ -103,24 +135,6 @@ export const obras: Obra[] = [
     localizacion: 'Madrid',
     fotos: [
       'oficinascallepradillo/1.jpg',
-      'oficinascallepradillo/2.jpg',
-      'oficinascallepradillo/3.jpg',
-      'oficinascallepradillo/4.jpg',
-      'oficinascallepradillo/5.jpg',
-      'oficinascallepradillo/6.jpg',
-      'oficinascallepradillo/7.jpg',
-      'oficinascallepradillo/8.jpg',
-      'oficinascallepradillo/9.jpg',
-      'oficinascallepradillo/10.jpg',
-      'oficinascallepradillo/11.jpg',
-      'oficinascallepradillo/12.jpg',
-      'oficinascallepradillo/13.jpg',
-      'oficinascallepradillo/14.jpg',
-      'oficinascallepradillo/15.jpg',
-      'oficinascallepradillo/16.jpg',
-      'oficinascallepradillo/17.jpg',
-      'oficinascallepradillo/18.jpg',
-      'oficinascallepradillo/19.jpg',
     ],
   },
   {
