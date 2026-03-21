@@ -41,7 +41,7 @@ export type Obra = {
   anio?: number;
   cliente?: string;
   localizacion?: string;
-  fotos: string[]; // rutas relativas ej: 'palosdelafrontera/putj5438.jpg'
+  fotos: string[];
 };
 
 export const obras: Obra[] = [
@@ -51,7 +51,7 @@ export const obras: Obra[] = [
     titulo: 'Sede BBVA',
     descripcion: 'Sede BBVA Las Tablas',
     contenido:
-      'Participación en la ejecución de la estructura de hormigón del complejo corporativo de BBVA en Las Tablas (Madrid).',
+      'Ejecución de estructura del complejo corporativo de BBVA en Las Tablas (Madrid).',
     anio: 2015,
     cliente: 'Acciona',
     localizacion: 'Madrid',
