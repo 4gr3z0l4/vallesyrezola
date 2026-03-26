@@ -268,7 +268,7 @@ export const obras: Obra[] = [
     contenido:
       'Muros de cerramiento y cimentaciones de aparcamiento Amazon en Leganés. Gran despliegue de medios por parte de Carbonell y Figueras para ejecución exitosa de la obra y cumplimiento de plazos.',
     anio: 2019,
-    cliente: 'Carbonrell y Figueras',
+    cliente: 'Carbonell y Figueras',
     localizacion: 'Leganés, Madrid',
     fotos: [
       'aparcamientoamazoncarbonellyfigueras/1.webp',
