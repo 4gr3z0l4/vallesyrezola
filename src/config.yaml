@@ -1,7 +1,7 @@
 site:
   name: Valles y Rezola
   description: Estructuras de hormigón para obra civil y edificación en Madrid.
-  site: 'http://www.vallesyrezola.es'
+  site: 'https://vallesyrezola.es'
   base: '/'
   trailingSlash: false
 
