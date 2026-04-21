@@ -12,7 +12,7 @@ metadata:
   title:
     default: Valles y Rezola
     template: '%s — Valles y Rezola'
-  description: "\U0001F680 Estructuras de hormigón para obra civil y edificación en Madrid."
+  description: "Estructuras de hormigón para obra civil y edificación en Madrid."
   robots:
     index: true
     follow: true
